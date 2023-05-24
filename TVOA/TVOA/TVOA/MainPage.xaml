@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TVOA.MainPage"
+             BackgroundColor="White">
+
+        <StackLayout VerticalOptions="CenterAndExpand" 
+                 HorizontalOptions="CenterAndExpand"
+                 Spacing="25">
+
+        <Image Source="https://i.ibb.co/RTZT85w/logo.png" 
+               Aspect="AspectFit"
+               HeightRequest="100"/>
+            
+        <Button Text="Войти" 
+                x:Name="LoginButton" 
+                Clicked="OnLoginClicked" 
+                CornerRadius="30" 
+                BackgroundColor="White" 
+                BorderColor="Black" 
+                BorderWidth="3"/>
+
+        <Button Text="Зарегистрироваться" 
+                x:Name="RegButton" 
+                Clicked="OnRegisterClicked" 
+                CornerRadius="30"
+                BackgroundColor="White" 
+                BorderColor="Black" 
+                BorderWidth="3"/>
+        
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TVOA.UserPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand" 
+                     HorizontalOptions="FillAndExpand" 
+                     Spacing="10"
+                     Margin="10">
+            
+            <Label Text="Мои собрания"
+                   TextColor="Black" 
+                   FontSize="35" 
+                   FontAttributes ="Bold"
+                   HorizontalOptions="Start"/>
+            
+            <BoxView Color="Gray" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Start" />
+
+            <StackLayout Orientation="Horizontal"
+                         VerticalOptions="Center">
+
+                <Picker x:Name="Period"
+                        Title="Период" 
+                        VerticalOptions="CenterAndExpand">
+                </Picker>
+
+                <Picker x:Name="Address"
+                        Title="Адрес">
+                </Picker>
+
+                <Picker x:Name="TypeMeet"
+                        Title="Вид собрания" VerticalOptions="CenterAndExpand">
+                </Picker>
+
+                <!-- Кликабельный текст "очистить" -->
+                <Label Text="Очистить" TextColor="Red" 
+                       VerticalOptions="CenterAndExpand">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                         Tapped="OnClearClicked" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+
+            <Label Text="Запланированные собрания"
+                   TextColor="Black" 
+                   FontSize="Title" 
+                   HorizontalOptions="Start"/>
+            
+            <Label Text="Прошедшие собрания"
+                   TextColor="Black" 
+                   FontSize="Title" 
+                   HorizontalOptions="Start"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
