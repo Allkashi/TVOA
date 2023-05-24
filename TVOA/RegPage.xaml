@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TVOA.RegPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" 
+                     HorizontalOptions="FillAndExpand" 
+                     Spacing="20"
+                     Margin="50">
+            <Label Text="Регистрация"
+                   TextColor="Black" 
+                   FontSize="Large" 
+                   HorizontalOptions="Start" />
+
+            <Entry Placeholder="Введите логин" 
+                   x:Name="NewUserLogin"
+                   FontSize="Small"/>
+            <Entry Placeholder="Введите пароль" 
+                   x:Name="NewUserPass1"
+                   FontSize="Small"
+                   IsPassword="True" />
+            <Entry Placeholder="Подтвердите пароль" 
+                   x:Name="NewUserPass2"
+                   FontSize="Small"
+                   IsPassword="True" />
+            <Entry Placeholder="Электронная почта" 
+                   x:Name="NewUserMail"
+                   FontSize="Small" />
+
+            <StackLayout Orientation="Horizontal">
+                <Entry Placeholder="Название улицы" 
+                   x:Name="NewUserStreet"
+                   FontSize="Small" />
+                <Entry Placeholder="Номер дома" 
+                   x:Name="NewUserHouse"
+                   FontSize="Small" />
+            </StackLayout>
+
+            <Button Text="Зарегистрироваться" 
+                    x:Name="NewUserReg"
+                    Clicked="OnRegClicked"
+                    CornerRadius="30" 
+                    BackgroundColor="White" 
+                    BorderColor="Black" 
+                    BorderWidth="3"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
