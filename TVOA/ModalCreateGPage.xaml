@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:forms="clr-namespace:dotMorten.Xamarin.Forms;assembly=dotMorten.Xamarin.Forms.AutoSuggestBox"
+             x:Class="TVOA.ModalCreateGPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" 
+                     HorizontalOptions="FillAndExpand" 
+                     Spacing="20"
+                     Margin="50">
+            <Label Text="Название группы:" />
+            <Entry x:Name="NameGroup" />
+            <Label Text="Пароль группы:" />
+            <Entry x:Name="PassGroup1"
+                   IsPassword="False"/>
+            <Label Text="Повторите пароль:" />
+            <Entry x:Name="PassGroup2"
+                   IsPassword="False"/>
+
+            <StackLayout Orientation="Horizontal">
+                <forms:AutoSuggestBox
+                   WidthRequest="500"
+                   PlaceholderText="Название улицы" 
+                   x:Name="NewGroupeStreet"
+                   TextChanged="AutoSuggestBox_TextChanged"
+                   />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand">
+                <Button Text="Отмена" 
+                        Clicked="OnUndoButtonClicked"
+                        BackgroundColor="Transparent"
+                        CornerRadius="30"
+                        BorderColor="Gray"
+                        BorderWidth="1"/>
+                <Button Text="Создать" 
+                        Clicked="OnSaveButtonClicked"
+                        BackgroundColor="Transparent"
+                        CornerRadius="30"
+                        BorderColor="Gray"
+                        BorderWidth="1"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

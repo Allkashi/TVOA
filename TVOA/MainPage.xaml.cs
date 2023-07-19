@@ -12,7 +12,9 @@ namespace TVOA
     {
         public MainPage()
         {
+
             InitializeComponent();
+            
         }
 
         private async void OnLoginClicked(object sender, EventArgs e)

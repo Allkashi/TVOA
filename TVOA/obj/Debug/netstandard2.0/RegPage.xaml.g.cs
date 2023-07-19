@@ -29,10 +29,7 @@ namespace TVOA {
         private global::Xamarin.Forms.Entry NewUserMail;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry NewUserStreet;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry NewUserHouse;
+        private global::dotMorten.Xamarin.Forms.AutoSuggestBox NewUserStreet;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Button NewUserReg;
@@ -44,8 +41,7 @@ namespace TVOA {
             NewUserPass1 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "NewUserPass1");
             NewUserPass2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "NewUserPass2");
             NewUserMail = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "NewUserMail");
-            NewUserStreet = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "NewUserStreet");
-            NewUserHouse = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "NewUserHouse");
+            NewUserStreet = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::dotMorten.Xamarin.Forms.AutoSuggestBox>(this, "NewUserStreet");
             NewUserReg = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "NewUserReg");
         }
     }

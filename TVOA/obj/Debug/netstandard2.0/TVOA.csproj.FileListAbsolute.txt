@@ -3,9 +3,19 @@ C:\Graduate60991\TVOA\TVOA\TVOA\bin\Debug\netstandard2.0\TVOA.dll
 C:\Graduate60991\TVOA\TVOA\TVOA\bin\Debug\netstandard2.0\ref\TVOA.dll
 C:\Graduate60991\TVOA\TVOA\TVOA\bin\Debug\netstandard2.0\TVOA.pdb
 C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\TVOA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\GroupControlPage.xaml.g.cs
+C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\GroupeEditPage.xaml.g.cs
+C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\GroupPage.xaml.g.cs
 C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
 C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\MeetCreatePage.xaml.g.cs
+C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\ModalCreateGPage.xaml.g.cs
+C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\ModalJoinGPage.xaml.g.cs
+C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\ModalViewMPage.xaml.g.cs
+C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
 C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\RegPage.xaml.g.cs
+C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\UserPage.xaml.g.cs
 C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\TVOA.AssemblyInfoInputs.cache
 C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\TVOA.AssemblyInfo.cs
 C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\TVOA.csproj.CoreCompileInputs.cache
@@ -13,6 +23,5 @@ C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\TVOA.dll
 C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\ref\TVOA.dll
 C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\TVOA.pdb
-C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\UserPage.xaml.g.cs
 C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\TVOA.csproj.AssemblyReference.cache
+C:\Graduate60991\TVOA\TVOA\TVOA\obj\Debug\netstandard2.0\ModalCreateMPage.xaml.g.cs

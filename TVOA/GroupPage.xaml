@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TVOA.GroupPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand" 
+                     HorizontalOptions="FillAndExpand" 
+                     Spacing="10"
+                     Margin="10">
+            
+            <StackLayout Orientation="Horizontal"
+                         Spacing="10">
+
+                <Label Text="Мои группы"
+                   TextColor="Black" 
+                   FontSize="35" 
+                   FontAttributes ="Bold"
+                   HorizontalOptions="Start"/>
+
+
+                <ImageButton  x:Name="btnGJoin" 
+                              Clicked="btnJoin_Clicked" 
+                              VerticalOptions="Center"
+                              BackgroundColor="Transparent"
+                              Source="search.png"
+                              WidthRequest="50"
+                              HeightRequest="50"/>
+
+                <ImageButton  x:Name="btnGCreate" 
+                              Clicked="btnCreate_Clicked" 
+                              VerticalOptions="Center"
+                              BackgroundColor="Transparent"
+                              Source="pluse.png"
+                              WidthRequest="40"
+                              HeightRequest="40"/>
+
+            </StackLayout>
+
+            <BoxView Color="Gray" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Start" />
+            
+            <ListView x:Name="ResultListView" RowHeight="70">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell Tapped="GoToGroup">
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="{Binding Name}"
+                                       FontSize="20"
+                                       FontAttributes="Bold"/>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding AddressId}"/>
+                                    <Label Text="{Binding HouseId}"/>
+                                    <BoxView></BoxView>
+                                    <Label  Text="Выйти"
+                                            TextColor="Red"
+                                            HorizontalOptions="EndAndExpand">
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer 
+                                                Tapped="btnExit_Group" />
+                                        </Label.GestureRecognizers>
+                                    </Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    
+   
+   

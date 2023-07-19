@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TVOA.GroupControlPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand" 
+                     HorizontalOptions="FillAndExpand" 
+                     Spacing="10"
+                     Margin="10">
+
+            <StackLayout Orientation="Horizontal"
+                         Spacing="10">
+                
+                <Label Text="{Binding Name}"
+                   x:Name="NameGroup"
+                   TextColor="Black" 
+                   FontSize="35" 
+                   FontAttributes ="Bold"
+                   HorizontalOptions="Start"/>
+                
+
+                <ImageButton  x:Name="btnGEdit" 
+                              IsVisible="False"
+                              Clicked="BtnGEdit" 
+                              VerticalOptions="Center"
+                              BackgroundColor="Transparent"
+                              Source="edit.png"
+                              WidthRequest="30"
+                              HeightRequest="30"/>
+
+            </StackLayout>
+
+            <BoxView Color="Gray" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Start" />
+
+            <Label Text="Участники"
+                   TextColor="Black" 
+                   FontSize="25" 
+                   FontAttributes ="Bold"
+                   HorizontalOptions="Start"/>
+
+            <ListView x:Name="UserListView" RowHeight="40">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Name}"
+                                       x:Name="NameUser"
+                                       FontSize="20"
+                                       FontAttributes="Bold"/>
+                                <BoxView></BoxView>
+
+                                <Label  Text="Выгнать"
+                                        x:Name="UserEdit"
+                                        IsVisible="{Binding Status}"
+                                        TextColor="Red"
+                                        HorizontalOptions="EndAndExpand">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer 
+                                                Tapped="BtnDel_User" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+                                
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -153,6 +153,7 @@ namespace TVOA.Droid
 			global::Xamarin.Essentials.Resource.Id.text2 = global::TVOA.Droid.Resource.Id.text2;
 			global::Xamarin.Essentials.Resource.Id.time = global::TVOA.Droid.Resource.Id.time;
 			global::Xamarin.Essentials.Resource.Id.title = global::TVOA.Droid.Resource.Id.title;
+			global::Xamarin.Essentials.Resource.Id.view_tree_lifecycle_owner = global::TVOA.Droid.Resource.Id.view_tree_lifecycle_owner;
 			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::TVOA.Droid.Resource.Integer.status_bar_notification_info_maxnum;
 			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_page = global::TVOA.Droid.Resource.Layout.browser_actions_context_menu_page;
 			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_row = global::TVOA.Droid.Resource.Layout.browser_actions_context_menu_row;
@@ -7465,6 +7466,1803 @@ namespace TVOA.Droid
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_start = global::TVOA.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_top_start = global::TVOA.Droid.Resource.Xml.standalone_badge_gravity_top_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_offset = global::TVOA.Droid.Resource.Xml.standalone_badge_offset;
+			global::XamEffects.Droid.Resource.Animation.abc_fade_in = global::TVOA.Droid.Resource.Animation.abc_fade_in;
+			global::XamEffects.Droid.Resource.Animation.abc_fade_out = global::TVOA.Droid.Resource.Animation.abc_fade_out;
+			global::XamEffects.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::TVOA.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::XamEffects.Droid.Resource.Animation.abc_popup_enter = global::TVOA.Droid.Resource.Animation.abc_popup_enter;
+			global::XamEffects.Droid.Resource.Animation.abc_popup_exit = global::TVOA.Droid.Resource.Animation.abc_popup_exit;
+			global::XamEffects.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::TVOA.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::XamEffects.Droid.Resource.Animation.abc_slide_in_bottom = global::TVOA.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::XamEffects.Droid.Resource.Animation.abc_slide_in_top = global::TVOA.Droid.Resource.Animation.abc_slide_in_top;
+			global::XamEffects.Droid.Resource.Animation.abc_slide_out_bottom = global::TVOA.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::XamEffects.Droid.Resource.Animation.abc_slide_out_top = global::TVOA.Droid.Resource.Animation.abc_slide_out_top;
+			global::XamEffects.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::TVOA.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::XamEffects.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::TVOA.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::XamEffects.Droid.Resource.Animation.design_snackbar_in = global::TVOA.Droid.Resource.Animation.design_snackbar_in;
+			global::XamEffects.Droid.Resource.Animation.design_snackbar_out = global::TVOA.Droid.Resource.Animation.design_snackbar_out;
+			global::XamEffects.Droid.Resource.Animator.design_appbar_state_list_animator = global::TVOA.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::XamEffects.Droid.Resource.Attribute.actionBarDivider = global::TVOA.Droid.Resource.Attribute.actionBarDivider;
+			global::XamEffects.Droid.Resource.Attribute.actionBarItemBackground = global::TVOA.Droid.Resource.Attribute.actionBarItemBackground;
+			global::XamEffects.Droid.Resource.Attribute.actionBarPopupTheme = global::TVOA.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::XamEffects.Droid.Resource.Attribute.actionBarSize = global::TVOA.Droid.Resource.Attribute.actionBarSize;
+			global::XamEffects.Droid.Resource.Attribute.actionBarSplitStyle = global::TVOA.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::XamEffects.Droid.Resource.Attribute.actionBarStyle = global::TVOA.Droid.Resource.Attribute.actionBarStyle;
+			global::XamEffects.Droid.Resource.Attribute.actionBarTabBarStyle = global::TVOA.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::XamEffects.Droid.Resource.Attribute.actionBarTabStyle = global::TVOA.Droid.Resource.Attribute.actionBarTabStyle;
+			global::XamEffects.Droid.Resource.Attribute.actionBarTabTextStyle = global::TVOA.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::XamEffects.Droid.Resource.Attribute.actionBarTheme = global::TVOA.Droid.Resource.Attribute.actionBarTheme;
+			global::XamEffects.Droid.Resource.Attribute.actionBarWidgetTheme = global::TVOA.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::XamEffects.Droid.Resource.Attribute.actionButtonStyle = global::TVOA.Droid.Resource.Attribute.actionButtonStyle;
+			global::XamEffects.Droid.Resource.Attribute.actionDropDownStyle = global::TVOA.Droid.Resource.Attribute.actionDropDownStyle;
+			global::XamEffects.Droid.Resource.Attribute.actionLayout = global::TVOA.Droid.Resource.Attribute.actionLayout;
+			global::XamEffects.Droid.Resource.Attribute.actionMenuTextAppearance = global::TVOA.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::XamEffects.Droid.Resource.Attribute.actionMenuTextColor = global::TVOA.Droid.Resource.Attribute.actionMenuTextColor;
+			global::XamEffects.Droid.Resource.Attribute.actionModeBackground = global::TVOA.Droid.Resource.Attribute.actionModeBackground;
+			global::XamEffects.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::TVOA.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::XamEffects.Droid.Resource.Attribute.actionModeCloseDrawable = global::TVOA.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::XamEffects.Droid.Resource.Attribute.actionModeCopyDrawable = global::TVOA.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::XamEffects.Droid.Resource.Attribute.actionModeCutDrawable = global::TVOA.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::XamEffects.Droid.Resource.Attribute.actionModeFindDrawable = global::TVOA.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::XamEffects.Droid.Resource.Attribute.actionModePasteDrawable = global::TVOA.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::XamEffects.Droid.Resource.Attribute.actionModePopupWindowStyle = global::TVOA.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::XamEffects.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::TVOA.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::XamEffects.Droid.Resource.Attribute.actionModeShareDrawable = global::TVOA.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::XamEffects.Droid.Resource.Attribute.actionModeSplitBackground = global::TVOA.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::XamEffects.Droid.Resource.Attribute.actionModeStyle = global::TVOA.Droid.Resource.Attribute.actionModeStyle;
+			global::XamEffects.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::TVOA.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::XamEffects.Droid.Resource.Attribute.actionOverflowButtonStyle = global::TVOA.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::XamEffects.Droid.Resource.Attribute.actionOverflowMenuStyle = global::TVOA.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::XamEffects.Droid.Resource.Attribute.actionProviderClass = global::TVOA.Droid.Resource.Attribute.actionProviderClass;
+			global::XamEffects.Droid.Resource.Attribute.actionViewClass = global::TVOA.Droid.Resource.Attribute.actionViewClass;
+			global::XamEffects.Droid.Resource.Attribute.activityChooserViewStyle = global::TVOA.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::XamEffects.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::TVOA.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::XamEffects.Droid.Resource.Attribute.alertDialogCenterButtons = global::TVOA.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::XamEffects.Droid.Resource.Attribute.alertDialogStyle = global::TVOA.Droid.Resource.Attribute.alertDialogStyle;
+			global::XamEffects.Droid.Resource.Attribute.alertDialogTheme = global::TVOA.Droid.Resource.Attribute.alertDialogTheme;
+			global::XamEffects.Droid.Resource.Attribute.allowStacking = global::TVOA.Droid.Resource.Attribute.allowStacking;
+			global::XamEffects.Droid.Resource.Attribute.alpha = global::TVOA.Droid.Resource.Attribute.alpha;
+			global::XamEffects.Droid.Resource.Attribute.arrowHeadLength = global::TVOA.Droid.Resource.Attribute.arrowHeadLength;
+			global::XamEffects.Droid.Resource.Attribute.arrowShaftLength = global::TVOA.Droid.Resource.Attribute.arrowShaftLength;
+			global::XamEffects.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::TVOA.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::XamEffects.Droid.Resource.Attribute.background = global::TVOA.Droid.Resource.Attribute.background;
+			global::XamEffects.Droid.Resource.Attribute.backgroundSplit = global::TVOA.Droid.Resource.Attribute.backgroundSplit;
+			global::XamEffects.Droid.Resource.Attribute.backgroundStacked = global::TVOA.Droid.Resource.Attribute.backgroundStacked;
+			global::XamEffects.Droid.Resource.Attribute.backgroundTint = global::TVOA.Droid.Resource.Attribute.backgroundTint;
+			global::XamEffects.Droid.Resource.Attribute.backgroundTintMode = global::TVOA.Droid.Resource.Attribute.backgroundTintMode;
+			global::XamEffects.Droid.Resource.Attribute.barLength = global::TVOA.Droid.Resource.Attribute.barLength;
+			global::XamEffects.Droid.Resource.Attribute.behavior_autoHide = global::TVOA.Droid.Resource.Attribute.behavior_autoHide;
+			global::XamEffects.Droid.Resource.Attribute.behavior_hideable = global::TVOA.Droid.Resource.Attribute.behavior_hideable;
+			global::XamEffects.Droid.Resource.Attribute.behavior_overlapTop = global::TVOA.Droid.Resource.Attribute.behavior_overlapTop;
+			global::XamEffects.Droid.Resource.Attribute.behavior_peekHeight = global::TVOA.Droid.Resource.Attribute.behavior_peekHeight;
+			global::XamEffects.Droid.Resource.Attribute.behavior_skipCollapsed = global::TVOA.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::XamEffects.Droid.Resource.Attribute.borderWidth = global::TVOA.Droid.Resource.Attribute.borderWidth;
+			global::XamEffects.Droid.Resource.Attribute.borderlessButtonStyle = global::TVOA.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::XamEffects.Droid.Resource.Attribute.bottomSheetDialogTheme = global::TVOA.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::XamEffects.Droid.Resource.Attribute.bottomSheetStyle = global::TVOA.Droid.Resource.Attribute.bottomSheetStyle;
+			global::XamEffects.Droid.Resource.Attribute.buttonBarButtonStyle = global::TVOA.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::XamEffects.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::TVOA.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::XamEffects.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::TVOA.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::XamEffects.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::TVOA.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::XamEffects.Droid.Resource.Attribute.buttonBarStyle = global::TVOA.Droid.Resource.Attribute.buttonBarStyle;
+			global::XamEffects.Droid.Resource.Attribute.buttonGravity = global::TVOA.Droid.Resource.Attribute.buttonGravity;
+			global::XamEffects.Droid.Resource.Attribute.buttonPanelSideLayout = global::TVOA.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::XamEffects.Droid.Resource.Attribute.buttonStyle = global::TVOA.Droid.Resource.Attribute.buttonStyle;
+			global::XamEffects.Droid.Resource.Attribute.buttonStyleSmall = global::TVOA.Droid.Resource.Attribute.buttonStyleSmall;
+			global::XamEffects.Droid.Resource.Attribute.buttonTint = global::TVOA.Droid.Resource.Attribute.buttonTint;
+			global::XamEffects.Droid.Resource.Attribute.buttonTintMode = global::TVOA.Droid.Resource.Attribute.buttonTintMode;
+			global::XamEffects.Droid.Resource.Attribute.cardBackgroundColor = global::TVOA.Droid.Resource.Attribute.cardBackgroundColor;
+			global::XamEffects.Droid.Resource.Attribute.cardCornerRadius = global::TVOA.Droid.Resource.Attribute.cardCornerRadius;
+			global::XamEffects.Droid.Resource.Attribute.cardElevation = global::TVOA.Droid.Resource.Attribute.cardElevation;
+			global::XamEffects.Droid.Resource.Attribute.cardMaxElevation = global::TVOA.Droid.Resource.Attribute.cardMaxElevation;
+			global::XamEffects.Droid.Resource.Attribute.cardPreventCornerOverlap = global::TVOA.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::XamEffects.Droid.Resource.Attribute.cardUseCompatPadding = global::TVOA.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::XamEffects.Droid.Resource.Attribute.checkboxStyle = global::TVOA.Droid.Resource.Attribute.checkboxStyle;
+			global::XamEffects.Droid.Resource.Attribute.checkedTextViewStyle = global::TVOA.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::XamEffects.Droid.Resource.Attribute.closeIcon = global::TVOA.Droid.Resource.Attribute.closeIcon;
+			global::XamEffects.Droid.Resource.Attribute.closeItemLayout = global::TVOA.Droid.Resource.Attribute.closeItemLayout;
+			global::XamEffects.Droid.Resource.Attribute.collapseContentDescription = global::TVOA.Droid.Resource.Attribute.collapseContentDescription;
+			global::XamEffects.Droid.Resource.Attribute.collapseIcon = global::TVOA.Droid.Resource.Attribute.collapseIcon;
+			global::XamEffects.Droid.Resource.Attribute.collapsedTitleGravity = global::TVOA.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::XamEffects.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::TVOA.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::XamEffects.Droid.Resource.Attribute.color = global::TVOA.Droid.Resource.Attribute.color;
+			global::XamEffects.Droid.Resource.Attribute.colorAccent = global::TVOA.Droid.Resource.Attribute.colorAccent;
+			global::XamEffects.Droid.Resource.Attribute.colorBackgroundFloating = global::TVOA.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::XamEffects.Droid.Resource.Attribute.colorButtonNormal = global::TVOA.Droid.Resource.Attribute.colorButtonNormal;
+			global::XamEffects.Droid.Resource.Attribute.colorControlActivated = global::TVOA.Droid.Resource.Attribute.colorControlActivated;
+			global::XamEffects.Droid.Resource.Attribute.colorControlHighlight = global::TVOA.Droid.Resource.Attribute.colorControlHighlight;
+			global::XamEffects.Droid.Resource.Attribute.colorControlNormal = global::TVOA.Droid.Resource.Attribute.colorControlNormal;
+			global::XamEffects.Droid.Resource.Attribute.colorPrimary = global::TVOA.Droid.Resource.Attribute.colorPrimary;
+			global::XamEffects.Droid.Resource.Attribute.colorPrimaryDark = global::TVOA.Droid.Resource.Attribute.colorPrimaryDark;
+			global::XamEffects.Droid.Resource.Attribute.colorSwitchThumbNormal = global::TVOA.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::XamEffects.Droid.Resource.Attribute.commitIcon = global::TVOA.Droid.Resource.Attribute.commitIcon;
+			global::XamEffects.Droid.Resource.Attribute.contentInsetEnd = global::TVOA.Droid.Resource.Attribute.contentInsetEnd;
+			global::XamEffects.Droid.Resource.Attribute.contentInsetEndWithActions = global::TVOA.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::XamEffects.Droid.Resource.Attribute.contentInsetLeft = global::TVOA.Droid.Resource.Attribute.contentInsetLeft;
+			global::XamEffects.Droid.Resource.Attribute.contentInsetRight = global::TVOA.Droid.Resource.Attribute.contentInsetRight;
+			global::XamEffects.Droid.Resource.Attribute.contentInsetStart = global::TVOA.Droid.Resource.Attribute.contentInsetStart;
+			global::XamEffects.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::TVOA.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::XamEffects.Droid.Resource.Attribute.contentPadding = global::TVOA.Droid.Resource.Attribute.contentPadding;
+			global::XamEffects.Droid.Resource.Attribute.contentPaddingBottom = global::TVOA.Droid.Resource.Attribute.contentPaddingBottom;
+			global::XamEffects.Droid.Resource.Attribute.contentPaddingLeft = global::TVOA.Droid.Resource.Attribute.contentPaddingLeft;
+			global::XamEffects.Droid.Resource.Attribute.contentPaddingRight = global::TVOA.Droid.Resource.Attribute.contentPaddingRight;
+			global::XamEffects.Droid.Resource.Attribute.contentPaddingTop = global::TVOA.Droid.Resource.Attribute.contentPaddingTop;
+			global::XamEffects.Droid.Resource.Attribute.contentScrim = global::TVOA.Droid.Resource.Attribute.contentScrim;
+			global::XamEffects.Droid.Resource.Attribute.controlBackground = global::TVOA.Droid.Resource.Attribute.controlBackground;
+			global::XamEffects.Droid.Resource.Attribute.counterEnabled = global::TVOA.Droid.Resource.Attribute.counterEnabled;
+			global::XamEffects.Droid.Resource.Attribute.counterMaxLength = global::TVOA.Droid.Resource.Attribute.counterMaxLength;
+			global::XamEffects.Droid.Resource.Attribute.counterOverflowTextAppearance = global::TVOA.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::XamEffects.Droid.Resource.Attribute.counterTextAppearance = global::TVOA.Droid.Resource.Attribute.counterTextAppearance;
+			global::XamEffects.Droid.Resource.Attribute.customNavigationLayout = global::TVOA.Droid.Resource.Attribute.customNavigationLayout;
+			global::XamEffects.Droid.Resource.Attribute.defaultQueryHint = global::TVOA.Droid.Resource.Attribute.defaultQueryHint;
+			global::XamEffects.Droid.Resource.Attribute.dialogPreferredPadding = global::TVOA.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::XamEffects.Droid.Resource.Attribute.dialogTheme = global::TVOA.Droid.Resource.Attribute.dialogTheme;
+			global::XamEffects.Droid.Resource.Attribute.displayOptions = global::TVOA.Droid.Resource.Attribute.displayOptions;
+			global::XamEffects.Droid.Resource.Attribute.divider = global::TVOA.Droid.Resource.Attribute.divider;
+			global::XamEffects.Droid.Resource.Attribute.dividerHorizontal = global::TVOA.Droid.Resource.Attribute.dividerHorizontal;
+			global::XamEffects.Droid.Resource.Attribute.dividerPadding = global::TVOA.Droid.Resource.Attribute.dividerPadding;
+			global::XamEffects.Droid.Resource.Attribute.dividerVertical = global::TVOA.Droid.Resource.Attribute.dividerVertical;
+			global::XamEffects.Droid.Resource.Attribute.drawableSize = global::TVOA.Droid.Resource.Attribute.drawableSize;
+			global::XamEffects.Droid.Resource.Attribute.drawerArrowStyle = global::TVOA.Droid.Resource.Attribute.drawerArrowStyle;
+			global::XamEffects.Droid.Resource.Attribute.dropDownListViewStyle = global::TVOA.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::XamEffects.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::TVOA.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::XamEffects.Droid.Resource.Attribute.editTextBackground = global::TVOA.Droid.Resource.Attribute.editTextBackground;
+			global::XamEffects.Droid.Resource.Attribute.editTextColor = global::TVOA.Droid.Resource.Attribute.editTextColor;
+			global::XamEffects.Droid.Resource.Attribute.editTextStyle = global::TVOA.Droid.Resource.Attribute.editTextStyle;
+			global::XamEffects.Droid.Resource.Attribute.elevation = global::TVOA.Droid.Resource.Attribute.elevation;
+			global::XamEffects.Droid.Resource.Attribute.errorEnabled = global::TVOA.Droid.Resource.Attribute.errorEnabled;
+			global::XamEffects.Droid.Resource.Attribute.errorTextAppearance = global::TVOA.Droid.Resource.Attribute.errorTextAppearance;
+			global::XamEffects.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::TVOA.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::XamEffects.Droid.Resource.Attribute.expanded = global::TVOA.Droid.Resource.Attribute.expanded;
+			global::XamEffects.Droid.Resource.Attribute.expandedTitleGravity = global::TVOA.Droid.Resource.Attribute.expandedTitleGravity;
+			global::XamEffects.Droid.Resource.Attribute.expandedTitleMargin = global::TVOA.Droid.Resource.Attribute.expandedTitleMargin;
+			global::XamEffects.Droid.Resource.Attribute.expandedTitleMarginBottom = global::TVOA.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::XamEffects.Droid.Resource.Attribute.expandedTitleMarginEnd = global::TVOA.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::XamEffects.Droid.Resource.Attribute.expandedTitleMarginStart = global::TVOA.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::XamEffects.Droid.Resource.Attribute.expandedTitleMarginTop = global::TVOA.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::XamEffects.Droid.Resource.Attribute.expandedTitleTextAppearance = global::TVOA.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::XamEffects.Droid.Resource.Attribute.fabSize = global::TVOA.Droid.Resource.Attribute.fabSize;
+			global::XamEffects.Droid.Resource.Attribute.foregroundInsidePadding = global::TVOA.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::XamEffects.Droid.Resource.Attribute.gapBetweenBars = global::TVOA.Droid.Resource.Attribute.gapBetweenBars;
+			global::XamEffects.Droid.Resource.Attribute.goIcon = global::TVOA.Droid.Resource.Attribute.goIcon;
+			global::XamEffects.Droid.Resource.Attribute.headerLayout = global::TVOA.Droid.Resource.Attribute.headerLayout;
+			global::XamEffects.Droid.Resource.Attribute.height = global::TVOA.Droid.Resource.Attribute.height;
+			global::XamEffects.Droid.Resource.Attribute.hideOnContentScroll = global::TVOA.Droid.Resource.Attribute.hideOnContentScroll;
+			global::XamEffects.Droid.Resource.Attribute.hintAnimationEnabled = global::TVOA.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::XamEffects.Droid.Resource.Attribute.hintEnabled = global::TVOA.Droid.Resource.Attribute.hintEnabled;
+			global::XamEffects.Droid.Resource.Attribute.hintTextAppearance = global::TVOA.Droid.Resource.Attribute.hintTextAppearance;
+			global::XamEffects.Droid.Resource.Attribute.homeAsUpIndicator = global::TVOA.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::XamEffects.Droid.Resource.Attribute.homeLayout = global::TVOA.Droid.Resource.Attribute.homeLayout;
+			global::XamEffects.Droid.Resource.Attribute.icon = global::TVOA.Droid.Resource.Attribute.icon;
+			global::XamEffects.Droid.Resource.Attribute.iconifiedByDefault = global::TVOA.Droid.Resource.Attribute.iconifiedByDefault;
+			global::XamEffects.Droid.Resource.Attribute.imageButtonStyle = global::TVOA.Droid.Resource.Attribute.imageButtonStyle;
+			global::XamEffects.Droid.Resource.Attribute.indeterminateProgressStyle = global::TVOA.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::XamEffects.Droid.Resource.Attribute.initialActivityCount = global::TVOA.Droid.Resource.Attribute.initialActivityCount;
+			global::XamEffects.Droid.Resource.Attribute.insetForeground = global::TVOA.Droid.Resource.Attribute.insetForeground;
+			global::XamEffects.Droid.Resource.Attribute.isLightTheme = global::TVOA.Droid.Resource.Attribute.isLightTheme;
+			global::XamEffects.Droid.Resource.Attribute.itemBackground = global::TVOA.Droid.Resource.Attribute.itemBackground;
+			global::XamEffects.Droid.Resource.Attribute.itemIconTint = global::TVOA.Droid.Resource.Attribute.itemIconTint;
+			global::XamEffects.Droid.Resource.Attribute.itemPadding = global::TVOA.Droid.Resource.Attribute.itemPadding;
+			global::XamEffects.Droid.Resource.Attribute.itemTextAppearance = global::TVOA.Droid.Resource.Attribute.itemTextAppearance;
+			global::XamEffects.Droid.Resource.Attribute.itemTextColor = global::TVOA.Droid.Resource.Attribute.itemTextColor;
+			global::XamEffects.Droid.Resource.Attribute.keylines = global::TVOA.Droid.Resource.Attribute.keylines;
+			global::XamEffects.Droid.Resource.Attribute.layout = global::TVOA.Droid.Resource.Attribute.layout;
+			global::XamEffects.Droid.Resource.Attribute.layoutManager = global::TVOA.Droid.Resource.Attribute.layoutManager;
+			global::XamEffects.Droid.Resource.Attribute.layout_anchor = global::TVOA.Droid.Resource.Attribute.layout_anchor;
+			global::XamEffects.Droid.Resource.Attribute.layout_anchorGravity = global::TVOA.Droid.Resource.Attribute.layout_anchorGravity;
+			global::XamEffects.Droid.Resource.Attribute.layout_behavior = global::TVOA.Droid.Resource.Attribute.layout_behavior;
+			global::XamEffects.Droid.Resource.Attribute.layout_collapseMode = global::TVOA.Droid.Resource.Attribute.layout_collapseMode;
+			global::XamEffects.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::TVOA.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::XamEffects.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::TVOA.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::XamEffects.Droid.Resource.Attribute.layout_insetEdge = global::TVOA.Droid.Resource.Attribute.layout_insetEdge;
+			global::XamEffects.Droid.Resource.Attribute.layout_keyline = global::TVOA.Droid.Resource.Attribute.layout_keyline;
+			global::XamEffects.Droid.Resource.Attribute.layout_scrollFlags = global::TVOA.Droid.Resource.Attribute.layout_scrollFlags;
+			global::XamEffects.Droid.Resource.Attribute.layout_scrollInterpolator = global::TVOA.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::XamEffects.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::TVOA.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::XamEffects.Droid.Resource.Attribute.listDividerAlertDialog = global::TVOA.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::XamEffects.Droid.Resource.Attribute.listItemLayout = global::TVOA.Droid.Resource.Attribute.listItemLayout;
+			global::XamEffects.Droid.Resource.Attribute.listLayout = global::TVOA.Droid.Resource.Attribute.listLayout;
+			global::XamEffects.Droid.Resource.Attribute.listMenuViewStyle = global::TVOA.Droid.Resource.Attribute.listMenuViewStyle;
+			global::XamEffects.Droid.Resource.Attribute.listPopupWindowStyle = global::TVOA.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::XamEffects.Droid.Resource.Attribute.listPreferredItemHeight = global::TVOA.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::XamEffects.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::TVOA.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::XamEffects.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::TVOA.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::XamEffects.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::TVOA.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::XamEffects.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::TVOA.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::XamEffects.Droid.Resource.Attribute.logo = global::TVOA.Droid.Resource.Attribute.logo;
+			global::XamEffects.Droid.Resource.Attribute.logoDescription = global::TVOA.Droid.Resource.Attribute.logoDescription;
+			global::XamEffects.Droid.Resource.Attribute.maxActionInlineWidth = global::TVOA.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::XamEffects.Droid.Resource.Attribute.maxButtonHeight = global::TVOA.Droid.Resource.Attribute.maxButtonHeight;
+			global::XamEffects.Droid.Resource.Attribute.measureWithLargestChild = global::TVOA.Droid.Resource.Attribute.measureWithLargestChild;
+			global::XamEffects.Droid.Resource.Attribute.menu = global::TVOA.Droid.Resource.Attribute.menu;
+			global::XamEffects.Droid.Resource.Attribute.multiChoiceItemLayout = global::TVOA.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::XamEffects.Droid.Resource.Attribute.navigationContentDescription = global::TVOA.Droid.Resource.Attribute.navigationContentDescription;
+			global::XamEffects.Droid.Resource.Attribute.navigationIcon = global::TVOA.Droid.Resource.Attribute.navigationIcon;
+			global::XamEffects.Droid.Resource.Attribute.navigationMode = global::TVOA.Droid.Resource.Attribute.navigationMode;
+			global::XamEffects.Droid.Resource.Attribute.overlapAnchor = global::TVOA.Droid.Resource.Attribute.overlapAnchor;
+			global::XamEffects.Droid.Resource.Attribute.paddingBottomNoButtons = global::TVOA.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::XamEffects.Droid.Resource.Attribute.paddingEnd = global::TVOA.Droid.Resource.Attribute.paddingEnd;
+			global::XamEffects.Droid.Resource.Attribute.paddingStart = global::TVOA.Droid.Resource.Attribute.paddingStart;
+			global::XamEffects.Droid.Resource.Attribute.paddingTopNoTitle = global::TVOA.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::XamEffects.Droid.Resource.Attribute.panelBackground = global::TVOA.Droid.Resource.Attribute.panelBackground;
+			global::XamEffects.Droid.Resource.Attribute.panelMenuListTheme = global::TVOA.Droid.Resource.Attribute.panelMenuListTheme;
+			global::XamEffects.Droid.Resource.Attribute.panelMenuListWidth = global::TVOA.Droid.Resource.Attribute.panelMenuListWidth;
+			global::XamEffects.Droid.Resource.Attribute.passwordToggleContentDescription = global::TVOA.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::XamEffects.Droid.Resource.Attribute.passwordToggleDrawable = global::TVOA.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::XamEffects.Droid.Resource.Attribute.passwordToggleEnabled = global::TVOA.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::XamEffects.Droid.Resource.Attribute.passwordToggleTint = global::TVOA.Droid.Resource.Attribute.passwordToggleTint;
+			global::XamEffects.Droid.Resource.Attribute.passwordToggleTintMode = global::TVOA.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::XamEffects.Droid.Resource.Attribute.popupMenuStyle = global::TVOA.Droid.Resource.Attribute.popupMenuStyle;
+			global::XamEffects.Droid.Resource.Attribute.popupTheme = global::TVOA.Droid.Resource.Attribute.popupTheme;
+			global::XamEffects.Droid.Resource.Attribute.popupWindowStyle = global::TVOA.Droid.Resource.Attribute.popupWindowStyle;
+			global::XamEffects.Droid.Resource.Attribute.preserveIconSpacing = global::TVOA.Droid.Resource.Attribute.preserveIconSpacing;
+			global::XamEffects.Droid.Resource.Attribute.pressedTranslationZ = global::TVOA.Droid.Resource.Attribute.pressedTranslationZ;
+			global::XamEffects.Droid.Resource.Attribute.progressBarPadding = global::TVOA.Droid.Resource.Attribute.progressBarPadding;
+			global::XamEffects.Droid.Resource.Attribute.progressBarStyle = global::TVOA.Droid.Resource.Attribute.progressBarStyle;
+			global::XamEffects.Droid.Resource.Attribute.queryBackground = global::TVOA.Droid.Resource.Attribute.queryBackground;
+			global::XamEffects.Droid.Resource.Attribute.queryHint = global::TVOA.Droid.Resource.Attribute.queryHint;
+			global::XamEffects.Droid.Resource.Attribute.radioButtonStyle = global::TVOA.Droid.Resource.Attribute.radioButtonStyle;
+			global::XamEffects.Droid.Resource.Attribute.ratingBarStyle = global::TVOA.Droid.Resource.Attribute.ratingBarStyle;
+			global::XamEffects.Droid.Resource.Attribute.ratingBarStyleIndicator = global::TVOA.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::XamEffects.Droid.Resource.Attribute.ratingBarStyleSmall = global::TVOA.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::XamEffects.Droid.Resource.Attribute.reverseLayout = global::TVOA.Droid.Resource.Attribute.reverseLayout;
+			global::XamEffects.Droid.Resource.Attribute.rippleColor = global::TVOA.Droid.Resource.Attribute.rippleColor;
+			global::XamEffects.Droid.Resource.Attribute.scrimAnimationDuration = global::TVOA.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::XamEffects.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::TVOA.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::XamEffects.Droid.Resource.Attribute.searchHintIcon = global::TVOA.Droid.Resource.Attribute.searchHintIcon;
+			global::XamEffects.Droid.Resource.Attribute.searchIcon = global::TVOA.Droid.Resource.Attribute.searchIcon;
+			global::XamEffects.Droid.Resource.Attribute.searchViewStyle = global::TVOA.Droid.Resource.Attribute.searchViewStyle;
+			global::XamEffects.Droid.Resource.Attribute.seekBarStyle = global::TVOA.Droid.Resource.Attribute.seekBarStyle;
+			global::XamEffects.Droid.Resource.Attribute.selectableItemBackground = global::TVOA.Droid.Resource.Attribute.selectableItemBackground;
+			global::XamEffects.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::TVOA.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::XamEffects.Droid.Resource.Attribute.showAsAction = global::TVOA.Droid.Resource.Attribute.showAsAction;
+			global::XamEffects.Droid.Resource.Attribute.showDividers = global::TVOA.Droid.Resource.Attribute.showDividers;
+			global::XamEffects.Droid.Resource.Attribute.showText = global::TVOA.Droid.Resource.Attribute.showText;
+			global::XamEffects.Droid.Resource.Attribute.showTitle = global::TVOA.Droid.Resource.Attribute.showTitle;
+			global::XamEffects.Droid.Resource.Attribute.singleChoiceItemLayout = global::TVOA.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::XamEffects.Droid.Resource.Attribute.spanCount = global::TVOA.Droid.Resource.Attribute.spanCount;
+			global::XamEffects.Droid.Resource.Attribute.spinBars = global::TVOA.Droid.Resource.Attribute.spinBars;
+			global::XamEffects.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::TVOA.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::XamEffects.Droid.Resource.Attribute.spinnerStyle = global::TVOA.Droid.Resource.Attribute.spinnerStyle;
+			global::XamEffects.Droid.Resource.Attribute.splitTrack = global::TVOA.Droid.Resource.Attribute.splitTrack;
+			global::XamEffects.Droid.Resource.Attribute.srcCompat = global::TVOA.Droid.Resource.Attribute.srcCompat;
+			global::XamEffects.Droid.Resource.Attribute.stackFromEnd = global::TVOA.Droid.Resource.Attribute.stackFromEnd;
+			global::XamEffects.Droid.Resource.Attribute.state_above_anchor = global::TVOA.Droid.Resource.Attribute.state_above_anchor;
+			global::XamEffects.Droid.Resource.Attribute.state_collapsed = global::TVOA.Droid.Resource.Attribute.state_collapsed;
+			global::XamEffects.Droid.Resource.Attribute.state_collapsible = global::TVOA.Droid.Resource.Attribute.state_collapsible;
+			global::XamEffects.Droid.Resource.Attribute.statusBarBackground = global::TVOA.Droid.Resource.Attribute.statusBarBackground;
+			global::XamEffects.Droid.Resource.Attribute.statusBarScrim = global::TVOA.Droid.Resource.Attribute.statusBarScrim;
+			global::XamEffects.Droid.Resource.Attribute.subMenuArrow = global::TVOA.Droid.Resource.Attribute.subMenuArrow;
+			global::XamEffects.Droid.Resource.Attribute.submitBackground = global::TVOA.Droid.Resource.Attribute.submitBackground;
+			global::XamEffects.Droid.Resource.Attribute.subtitle = global::TVOA.Droid.Resource.Attribute.subtitle;
+			global::XamEffects.Droid.Resource.Attribute.subtitleTextAppearance = global::TVOA.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::XamEffects.Droid.Resource.Attribute.subtitleTextColor = global::TVOA.Droid.Resource.Attribute.subtitleTextColor;
+			global::XamEffects.Droid.Resource.Attribute.subtitleTextStyle = global::TVOA.Droid.Resource.Attribute.subtitleTextStyle;
+			global::XamEffects.Droid.Resource.Attribute.suggestionRowLayout = global::TVOA.Droid.Resource.Attribute.suggestionRowLayout;
+			global::XamEffects.Droid.Resource.Attribute.switchMinWidth = global::TVOA.Droid.Resource.Attribute.switchMinWidth;
+			global::XamEffects.Droid.Resource.Attribute.switchPadding = global::TVOA.Droid.Resource.Attribute.switchPadding;
+			global::XamEffects.Droid.Resource.Attribute.switchStyle = global::TVOA.Droid.Resource.Attribute.switchStyle;
+			global::XamEffects.Droid.Resource.Attribute.switchTextAppearance = global::TVOA.Droid.Resource.Attribute.switchTextAppearance;
+			global::XamEffects.Droid.Resource.Attribute.tabBackground = global::TVOA.Droid.Resource.Attribute.tabBackground;
+			global::XamEffects.Droid.Resource.Attribute.tabContentStart = global::TVOA.Droid.Resource.Attribute.tabContentStart;
+			global::XamEffects.Droid.Resource.Attribute.tabGravity = global::TVOA.Droid.Resource.Attribute.tabGravity;
+			global::XamEffects.Droid.Resource.Attribute.tabIndicatorColor = global::TVOA.Droid.Resource.Attribute.tabIndicatorColor;
+			global::XamEffects.Droid.Resource.Attribute.tabIndicatorHeight = global::TVOA.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::XamEffects.Droid.Resource.Attribute.tabMaxWidth = global::TVOA.Droid.Resource.Attribute.tabMaxWidth;
+			global::XamEffects.Droid.Resource.Attribute.tabMinWidth = global::TVOA.Droid.Resource.Attribute.tabMinWidth;
+			global::XamEffects.Droid.Resource.Attribute.tabMode = global::TVOA.Droid.Resource.Attribute.tabMode;
+			global::XamEffects.Droid.Resource.Attribute.tabPadding = global::TVOA.Droid.Resource.Attribute.tabPadding;
+			global::XamEffects.Droid.Resource.Attribute.tabPaddingBottom = global::TVOA.Droid.Resource.Attribute.tabPaddingBottom;
+			global::XamEffects.Droid.Resource.Attribute.tabPaddingEnd = global::TVOA.Droid.Resource.Attribute.tabPaddingEnd;
+			global::XamEffects.Droid.Resource.Attribute.tabPaddingStart = global::TVOA.Droid.Resource.Attribute.tabPaddingStart;
+			global::XamEffects.Droid.Resource.Attribute.tabPaddingTop = global::TVOA.Droid.Resource.Attribute.tabPaddingTop;
+			global::XamEffects.Droid.Resource.Attribute.tabSelectedTextColor = global::TVOA.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::XamEffects.Droid.Resource.Attribute.tabTextAppearance = global::TVOA.Droid.Resource.Attribute.tabTextAppearance;
+			global::XamEffects.Droid.Resource.Attribute.tabTextColor = global::TVOA.Droid.Resource.Attribute.tabTextColor;
+			global::XamEffects.Droid.Resource.Attribute.textAllCaps = global::TVOA.Droid.Resource.Attribute.textAllCaps;
+			global::XamEffects.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::TVOA.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::XamEffects.Droid.Resource.Attribute.textAppearanceListItem = global::TVOA.Droid.Resource.Attribute.textAppearanceListItem;
+			global::XamEffects.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::TVOA.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::XamEffects.Droid.Resource.Attribute.textAppearanceListItemSmall = global::TVOA.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::XamEffects.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::TVOA.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::XamEffects.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::TVOA.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::XamEffects.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::TVOA.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::XamEffects.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::TVOA.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::XamEffects.Droid.Resource.Attribute.textColorAlertDialogListItem = global::TVOA.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::XamEffects.Droid.Resource.Attribute.textColorSearchUrl = global::TVOA.Droid.Resource.Attribute.textColorSearchUrl;
+			global::XamEffects.Droid.Resource.Attribute.theme = global::TVOA.Droid.Resource.Attribute.theme;
+			global::XamEffects.Droid.Resource.Attribute.thickness = global::TVOA.Droid.Resource.Attribute.thickness;
+			global::XamEffects.Droid.Resource.Attribute.thumbTextPadding = global::TVOA.Droid.Resource.Attribute.thumbTextPadding;
+			global::XamEffects.Droid.Resource.Attribute.thumbTint = global::TVOA.Droid.Resource.Attribute.thumbTint;
+			global::XamEffects.Droid.Resource.Attribute.thumbTintMode = global::TVOA.Droid.Resource.Attribute.thumbTintMode;
+			global::XamEffects.Droid.Resource.Attribute.tickMark = global::TVOA.Droid.Resource.Attribute.tickMark;
+			global::XamEffects.Droid.Resource.Attribute.tickMarkTint = global::TVOA.Droid.Resource.Attribute.tickMarkTint;
+			global::XamEffects.Droid.Resource.Attribute.tickMarkTintMode = global::TVOA.Droid.Resource.Attribute.tickMarkTintMode;
+			global::XamEffects.Droid.Resource.Attribute.tint = global::TVOA.Droid.Resource.Attribute.tint;
+			global::XamEffects.Droid.Resource.Attribute.tintMode = global::TVOA.Droid.Resource.Attribute.tintMode;
+			global::XamEffects.Droid.Resource.Attribute.title = global::TVOA.Droid.Resource.Attribute.title;
+			global::XamEffects.Droid.Resource.Attribute.titleEnabled = global::TVOA.Droid.Resource.Attribute.titleEnabled;
+			global::XamEffects.Droid.Resource.Attribute.titleMargin = global::TVOA.Droid.Resource.Attribute.titleMargin;
+			global::XamEffects.Droid.Resource.Attribute.titleMarginBottom = global::TVOA.Droid.Resource.Attribute.titleMarginBottom;
+			global::XamEffects.Droid.Resource.Attribute.titleMarginEnd = global::TVOA.Droid.Resource.Attribute.titleMarginEnd;
+			global::XamEffects.Droid.Resource.Attribute.titleMarginStart = global::TVOA.Droid.Resource.Attribute.titleMarginStart;
+			global::XamEffects.Droid.Resource.Attribute.titleMarginTop = global::TVOA.Droid.Resource.Attribute.titleMarginTop;
+			global::XamEffects.Droid.Resource.Attribute.titleMargins = global::TVOA.Droid.Resource.Attribute.titleMargins;
+			global::XamEffects.Droid.Resource.Attribute.titleTextAppearance = global::TVOA.Droid.Resource.Attribute.titleTextAppearance;
+			global::XamEffects.Droid.Resource.Attribute.titleTextColor = global::TVOA.Droid.Resource.Attribute.titleTextColor;
+			global::XamEffects.Droid.Resource.Attribute.titleTextStyle = global::TVOA.Droid.Resource.Attribute.titleTextStyle;
+			global::XamEffects.Droid.Resource.Attribute.toolbarId = global::TVOA.Droid.Resource.Attribute.toolbarId;
+			global::XamEffects.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::TVOA.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::XamEffects.Droid.Resource.Attribute.toolbarStyle = global::TVOA.Droid.Resource.Attribute.toolbarStyle;
+			global::XamEffects.Droid.Resource.Attribute.track = global::TVOA.Droid.Resource.Attribute.track;
+			global::XamEffects.Droid.Resource.Attribute.trackTint = global::TVOA.Droid.Resource.Attribute.trackTint;
+			global::XamEffects.Droid.Resource.Attribute.trackTintMode = global::TVOA.Droid.Resource.Attribute.trackTintMode;
+			global::XamEffects.Droid.Resource.Attribute.useCompatPadding = global::TVOA.Droid.Resource.Attribute.useCompatPadding;
+			global::XamEffects.Droid.Resource.Attribute.voiceIcon = global::TVOA.Droid.Resource.Attribute.voiceIcon;
+			global::XamEffects.Droid.Resource.Attribute.windowActionBar = global::TVOA.Droid.Resource.Attribute.windowActionBar;
+			global::XamEffects.Droid.Resource.Attribute.windowActionBarOverlay = global::TVOA.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::XamEffects.Droid.Resource.Attribute.windowActionModeOverlay = global::TVOA.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::XamEffects.Droid.Resource.Attribute.windowFixedHeightMajor = global::TVOA.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::XamEffects.Droid.Resource.Attribute.windowFixedHeightMinor = global::TVOA.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::XamEffects.Droid.Resource.Attribute.windowFixedWidthMajor = global::TVOA.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::XamEffects.Droid.Resource.Attribute.windowFixedWidthMinor = global::TVOA.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::XamEffects.Droid.Resource.Attribute.windowMinWidthMajor = global::TVOA.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::XamEffects.Droid.Resource.Attribute.windowMinWidthMinor = global::TVOA.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::XamEffects.Droid.Resource.Attribute.windowNoTitle = global::TVOA.Droid.Resource.Attribute.windowNoTitle;
+			global::XamEffects.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::TVOA.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::XamEffects.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::TVOA.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::XamEffects.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::TVOA.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::XamEffects.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::TVOA.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::XamEffects.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::TVOA.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::XamEffects.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::TVOA.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::XamEffects.Droid.Resource.Color.abc_btn_colored_text_material = global::TVOA.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::XamEffects.Droid.Resource.Color.abc_color_highlight_material = global::TVOA.Droid.Resource.Color.abc_color_highlight_material;
+			global::XamEffects.Droid.Resource.Color.abc_hint_foreground_material_dark = global::TVOA.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::XamEffects.Droid.Resource.Color.abc_hint_foreground_material_light = global::TVOA.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::XamEffects.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::TVOA.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::XamEffects.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::TVOA.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::XamEffects.Droid.Resource.Color.abc_primary_text_material_dark = global::TVOA.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::XamEffects.Droid.Resource.Color.abc_primary_text_material_light = global::TVOA.Droid.Resource.Color.abc_primary_text_material_light;
+			global::XamEffects.Droid.Resource.Color.abc_search_url_text = global::TVOA.Droid.Resource.Color.abc_search_url_text;
+			global::XamEffects.Droid.Resource.Color.abc_search_url_text_normal = global::TVOA.Droid.Resource.Color.abc_search_url_text_normal;
+			global::XamEffects.Droid.Resource.Color.abc_search_url_text_pressed = global::TVOA.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::XamEffects.Droid.Resource.Color.abc_search_url_text_selected = global::TVOA.Droid.Resource.Color.abc_search_url_text_selected;
+			global::XamEffects.Droid.Resource.Color.abc_secondary_text_material_dark = global::TVOA.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::XamEffects.Droid.Resource.Color.abc_secondary_text_material_light = global::TVOA.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::XamEffects.Droid.Resource.Color.abc_tint_btn_checkable = global::TVOA.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::XamEffects.Droid.Resource.Color.abc_tint_default = global::TVOA.Droid.Resource.Color.abc_tint_default;
+			global::XamEffects.Droid.Resource.Color.abc_tint_edittext = global::TVOA.Droid.Resource.Color.abc_tint_edittext;
+			global::XamEffects.Droid.Resource.Color.abc_tint_seek_thumb = global::TVOA.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::XamEffects.Droid.Resource.Color.abc_tint_spinner = global::TVOA.Droid.Resource.Color.abc_tint_spinner;
+			global::XamEffects.Droid.Resource.Color.abc_tint_switch_track = global::TVOA.Droid.Resource.Color.abc_tint_switch_track;
+			global::XamEffects.Droid.Resource.Color.accent_material_dark = global::TVOA.Droid.Resource.Color.accent_material_dark;
+			global::XamEffects.Droid.Resource.Color.accent_material_light = global::TVOA.Droid.Resource.Color.accent_material_light;
+			global::XamEffects.Droid.Resource.Color.background_floating_material_dark = global::TVOA.Droid.Resource.Color.background_floating_material_dark;
+			global::XamEffects.Droid.Resource.Color.background_floating_material_light = global::TVOA.Droid.Resource.Color.background_floating_material_light;
+			global::XamEffects.Droid.Resource.Color.background_material_dark = global::TVOA.Droid.Resource.Color.background_material_dark;
+			global::XamEffects.Droid.Resource.Color.background_material_light = global::TVOA.Droid.Resource.Color.background_material_light;
+			global::XamEffects.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::TVOA.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::XamEffects.Droid.Resource.Color.bright_foreground_disabled_material_light = global::TVOA.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::XamEffects.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::TVOA.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::XamEffects.Droid.Resource.Color.bright_foreground_inverse_material_light = global::TVOA.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::XamEffects.Droid.Resource.Color.bright_foreground_material_dark = global::TVOA.Droid.Resource.Color.bright_foreground_material_dark;
+			global::XamEffects.Droid.Resource.Color.bright_foreground_material_light = global::TVOA.Droid.Resource.Color.bright_foreground_material_light;
+			global::XamEffects.Droid.Resource.Color.button_material_dark = global::TVOA.Droid.Resource.Color.button_material_dark;
+			global::XamEffects.Droid.Resource.Color.button_material_light = global::TVOA.Droid.Resource.Color.button_material_light;
+			global::XamEffects.Droid.Resource.Color.cardview_dark_background = global::TVOA.Droid.Resource.Color.cardview_dark_background;
+			global::XamEffects.Droid.Resource.Color.cardview_light_background = global::TVOA.Droid.Resource.Color.cardview_light_background;
+			global::XamEffects.Droid.Resource.Color.cardview_shadow_end_color = global::TVOA.Droid.Resource.Color.cardview_shadow_end_color;
+			global::XamEffects.Droid.Resource.Color.cardview_shadow_start_color = global::TVOA.Droid.Resource.Color.cardview_shadow_start_color;
+			global::XamEffects.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::TVOA.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::XamEffects.Droid.Resource.Color.design_error = global::TVOA.Droid.Resource.Color.design_error;
+			global::XamEffects.Droid.Resource.Color.design_fab_shadow_end_color = global::TVOA.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::XamEffects.Droid.Resource.Color.design_fab_shadow_mid_color = global::TVOA.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::XamEffects.Droid.Resource.Color.design_fab_shadow_start_color = global::TVOA.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::XamEffects.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::TVOA.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::XamEffects.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::TVOA.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::XamEffects.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::TVOA.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::XamEffects.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::TVOA.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::XamEffects.Droid.Resource.Color.design_snackbar_background_color = global::TVOA.Droid.Resource.Color.design_snackbar_background_color;
+			global::XamEffects.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::TVOA.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::XamEffects.Droid.Resource.Color.dim_foreground_disabled_material_light = global::TVOA.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::XamEffects.Droid.Resource.Color.dim_foreground_material_dark = global::TVOA.Droid.Resource.Color.dim_foreground_material_dark;
+			global::XamEffects.Droid.Resource.Color.dim_foreground_material_light = global::TVOA.Droid.Resource.Color.dim_foreground_material_light;
+			global::XamEffects.Droid.Resource.Color.foreground_material_dark = global::TVOA.Droid.Resource.Color.foreground_material_dark;
+			global::XamEffects.Droid.Resource.Color.foreground_material_light = global::TVOA.Droid.Resource.Color.foreground_material_light;
+			global::XamEffects.Droid.Resource.Color.highlighted_text_material_dark = global::TVOA.Droid.Resource.Color.highlighted_text_material_dark;
+			global::XamEffects.Droid.Resource.Color.highlighted_text_material_light = global::TVOA.Droid.Resource.Color.highlighted_text_material_light;
+			global::XamEffects.Droid.Resource.Color.material_blue_grey_800 = global::TVOA.Droid.Resource.Color.material_blue_grey_800;
+			global::XamEffects.Droid.Resource.Color.material_blue_grey_900 = global::TVOA.Droid.Resource.Color.material_blue_grey_900;
+			global::XamEffects.Droid.Resource.Color.material_blue_grey_950 = global::TVOA.Droid.Resource.Color.material_blue_grey_950;
+			global::XamEffects.Droid.Resource.Color.material_deep_teal_200 = global::TVOA.Droid.Resource.Color.material_deep_teal_200;
+			global::XamEffects.Droid.Resource.Color.material_deep_teal_500 = global::TVOA.Droid.Resource.Color.material_deep_teal_500;
+			global::XamEffects.Droid.Resource.Color.material_grey_100 = global::TVOA.Droid.Resource.Color.material_grey_100;
+			global::XamEffects.Droid.Resource.Color.material_grey_300 = global::TVOA.Droid.Resource.Color.material_grey_300;
+			global::XamEffects.Droid.Resource.Color.material_grey_50 = global::TVOA.Droid.Resource.Color.material_grey_50;
+			global::XamEffects.Droid.Resource.Color.material_grey_600 = global::TVOA.Droid.Resource.Color.material_grey_600;
+			global::XamEffects.Droid.Resource.Color.material_grey_800 = global::TVOA.Droid.Resource.Color.material_grey_800;
+			global::XamEffects.Droid.Resource.Color.material_grey_850 = global::TVOA.Droid.Resource.Color.material_grey_850;
+			global::XamEffects.Droid.Resource.Color.material_grey_900 = global::TVOA.Droid.Resource.Color.material_grey_900;
+			global::XamEffects.Droid.Resource.Color.notification_action_color_filter = global::TVOA.Droid.Resource.Color.notification_action_color_filter;
+			global::XamEffects.Droid.Resource.Color.notification_icon_bg_color = global::TVOA.Droid.Resource.Color.notification_icon_bg_color;
+			global::XamEffects.Droid.Resource.Color.notification_material_background_media_default_color = global::TVOA.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::XamEffects.Droid.Resource.Color.primary_dark_material_dark = global::TVOA.Droid.Resource.Color.primary_dark_material_dark;
+			global::XamEffects.Droid.Resource.Color.primary_dark_material_light = global::TVOA.Droid.Resource.Color.primary_dark_material_light;
+			global::XamEffects.Droid.Resource.Color.primary_material_dark = global::TVOA.Droid.Resource.Color.primary_material_dark;
+			global::XamEffects.Droid.Resource.Color.primary_material_light = global::TVOA.Droid.Resource.Color.primary_material_light;
+			global::XamEffects.Droid.Resource.Color.primary_text_default_material_dark = global::TVOA.Droid.Resource.Color.primary_text_default_material_dark;
+			global::XamEffects.Droid.Resource.Color.primary_text_default_material_light = global::TVOA.Droid.Resource.Color.primary_text_default_material_light;
+			global::XamEffects.Droid.Resource.Color.primary_text_disabled_material_dark = global::TVOA.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::XamEffects.Droid.Resource.Color.primary_text_disabled_material_light = global::TVOA.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::XamEffects.Droid.Resource.Color.ripple_material_dark = global::TVOA.Droid.Resource.Color.ripple_material_dark;
+			global::XamEffects.Droid.Resource.Color.ripple_material_light = global::TVOA.Droid.Resource.Color.ripple_material_light;
+			global::XamEffects.Droid.Resource.Color.secondary_text_default_material_dark = global::TVOA.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::XamEffects.Droid.Resource.Color.secondary_text_default_material_light = global::TVOA.Droid.Resource.Color.secondary_text_default_material_light;
+			global::XamEffects.Droid.Resource.Color.secondary_text_disabled_material_dark = global::TVOA.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::XamEffects.Droid.Resource.Color.secondary_text_disabled_material_light = global::TVOA.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::XamEffects.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::TVOA.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::XamEffects.Droid.Resource.Color.switch_thumb_disabled_material_light = global::TVOA.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::XamEffects.Droid.Resource.Color.switch_thumb_material_dark = global::TVOA.Droid.Resource.Color.switch_thumb_material_dark;
+			global::XamEffects.Droid.Resource.Color.switch_thumb_material_light = global::TVOA.Droid.Resource.Color.switch_thumb_material_light;
+			global::XamEffects.Droid.Resource.Color.switch_thumb_normal_material_dark = global::TVOA.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::XamEffects.Droid.Resource.Color.switch_thumb_normal_material_light = global::TVOA.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::TVOA.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::TVOA.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::TVOA.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::TVOA.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::TVOA.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::TVOA.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::TVOA.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::TVOA.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::TVOA.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::TVOA.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::TVOA.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::TVOA.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::TVOA.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_button_min_height_material = global::TVOA.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_button_min_width_material = global::TVOA.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::TVOA.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::TVOA.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::XamEffects.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::TVOA.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::TVOA.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::TVOA.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::TVOA.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::TVOA.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::XamEffects.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::TVOA.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::XamEffects.Droid.Resource.Dimension.abc_control_corner_material = global::TVOA.Droid.Resource.Dimension.abc_control_corner_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_control_inset_material = global::TVOA.Droid.Resource.Dimension.abc_control_inset_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_control_padding_material = global::TVOA.Droid.Resource.Dimension.abc_control_padding_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::TVOA.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::XamEffects.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::TVOA.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::XamEffects.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::TVOA.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::XamEffects.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::TVOA.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::XamEffects.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::TVOA.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::XamEffects.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::TVOA.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::XamEffects.Droid.Resource.Dimension.abc_dialog_min_width_major = global::TVOA.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::XamEffects.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::TVOA.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::XamEffects.Droid.Resource.Dimension.abc_dialog_padding_material = global::TVOA.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::TVOA.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::TVOA.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::TVOA.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::XamEffects.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::TVOA.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::XamEffects.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::TVOA.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::XamEffects.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::TVOA.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::XamEffects.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::TVOA.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::XamEffects.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::TVOA.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::TVOA.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::TVOA.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_floating_window_z = global::TVOA.Droid.Resource.Dimension.abc_floating_window_z;
+			global::XamEffects.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::TVOA.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_panel_menu_list_width = global::TVOA.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::XamEffects.Droid.Resource.Dimension.abc_progress_bar_height_material = global::TVOA.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_search_view_preferred_height = global::TVOA.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::XamEffects.Droid.Resource.Dimension.abc_search_view_preferred_width = global::TVOA.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::XamEffects.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::TVOA.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::TVOA.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::TVOA.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_switch_padding = global::TVOA.Droid.Resource.Dimension.abc_switch_padding;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_body_1_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_body_2_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_button_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_caption_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_display_1_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_display_2_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_display_3_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_display_4_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_headline_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_large_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_medium_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_menu_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_small_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_subhead_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::TVOA.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_title_material = global::TVOA.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::XamEffects.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::TVOA.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::XamEffects.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::TVOA.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::XamEffects.Droid.Resource.Dimension.cardview_default_elevation = global::TVOA.Droid.Resource.Dimension.cardview_default_elevation;
+			global::XamEffects.Droid.Resource.Dimension.cardview_default_radius = global::TVOA.Droid.Resource.Dimension.cardview_default_radius;
+			global::XamEffects.Droid.Resource.Dimension.design_appbar_elevation = global::TVOA.Droid.Resource.Dimension.design_appbar_elevation;
+			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::TVOA.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::TVOA.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::TVOA.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_height = global::TVOA.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::TVOA.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::TVOA.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_margin = global::TVOA.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::TVOA.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::XamEffects.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::TVOA.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::XamEffects.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::TVOA.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::XamEffects.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::TVOA.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::XamEffects.Droid.Resource.Dimension.design_fab_border_width = global::TVOA.Droid.Resource.Dimension.design_fab_border_width;
+			global::XamEffects.Droid.Resource.Dimension.design_fab_elevation = global::TVOA.Droid.Resource.Dimension.design_fab_elevation;
+			global::XamEffects.Droid.Resource.Dimension.design_fab_image_size = global::TVOA.Droid.Resource.Dimension.design_fab_image_size;
+			global::XamEffects.Droid.Resource.Dimension.design_fab_size_mini = global::TVOA.Droid.Resource.Dimension.design_fab_size_mini;
+			global::XamEffects.Droid.Resource.Dimension.design_fab_size_normal = global::TVOA.Droid.Resource.Dimension.design_fab_size_normal;
+			global::XamEffects.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::TVOA.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::XamEffects.Droid.Resource.Dimension.design_navigation_elevation = global::TVOA.Droid.Resource.Dimension.design_navigation_elevation;
+			global::XamEffects.Droid.Resource.Dimension.design_navigation_icon_padding = global::TVOA.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::XamEffects.Droid.Resource.Dimension.design_navigation_icon_size = global::TVOA.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::XamEffects.Droid.Resource.Dimension.design_navigation_max_width = global::TVOA.Droid.Resource.Dimension.design_navigation_max_width;
+			global::XamEffects.Droid.Resource.Dimension.design_navigation_padding_bottom = global::TVOA.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::XamEffects.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::TVOA.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::XamEffects.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::TVOA.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::XamEffects.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::TVOA.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::XamEffects.Droid.Resource.Dimension.design_snackbar_elevation = global::TVOA.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::XamEffects.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::TVOA.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::XamEffects.Droid.Resource.Dimension.design_snackbar_max_width = global::TVOA.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::XamEffects.Droid.Resource.Dimension.design_snackbar_min_width = global::TVOA.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::XamEffects.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::TVOA.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::XamEffects.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::TVOA.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::XamEffects.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::TVOA.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::XamEffects.Droid.Resource.Dimension.design_snackbar_text_size = global::TVOA.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::XamEffects.Droid.Resource.Dimension.design_tab_max_width = global::TVOA.Droid.Resource.Dimension.design_tab_max_width;
+			global::XamEffects.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::TVOA.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::XamEffects.Droid.Resource.Dimension.design_tab_text_size = global::TVOA.Droid.Resource.Dimension.design_tab_text_size;
+			global::XamEffects.Droid.Resource.Dimension.design_tab_text_size_2line = global::TVOA.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::XamEffects.Droid.Resource.Dimension.disabled_alpha_material_dark = global::TVOA.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::XamEffects.Droid.Resource.Dimension.disabled_alpha_material_light = global::TVOA.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::XamEffects.Droid.Resource.Dimension.highlight_alpha_material_colored = global::TVOA.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::XamEffects.Droid.Resource.Dimension.highlight_alpha_material_dark = global::TVOA.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::XamEffects.Droid.Resource.Dimension.highlight_alpha_material_light = global::TVOA.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::XamEffects.Droid.Resource.Dimension.hint_alpha_material_dark = global::TVOA.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::XamEffects.Droid.Resource.Dimension.hint_alpha_material_light = global::TVOA.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::XamEffects.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::TVOA.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::XamEffects.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::TVOA.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::XamEffects.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::TVOA.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::XamEffects.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::TVOA.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::XamEffects.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::TVOA.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::XamEffects.Droid.Resource.Dimension.notification_action_icon_size = global::TVOA.Droid.Resource.Dimension.notification_action_icon_size;
+			global::XamEffects.Droid.Resource.Dimension.notification_action_text_size = global::TVOA.Droid.Resource.Dimension.notification_action_text_size;
+			global::XamEffects.Droid.Resource.Dimension.notification_big_circle_margin = global::TVOA.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::XamEffects.Droid.Resource.Dimension.notification_content_margin_start = global::TVOA.Droid.Resource.Dimension.notification_content_margin_start;
+			global::XamEffects.Droid.Resource.Dimension.notification_large_icon_height = global::TVOA.Droid.Resource.Dimension.notification_large_icon_height;
+			global::XamEffects.Droid.Resource.Dimension.notification_large_icon_width = global::TVOA.Droid.Resource.Dimension.notification_large_icon_width;
+			global::XamEffects.Droid.Resource.Dimension.notification_main_column_padding_top = global::TVOA.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::XamEffects.Droid.Resource.Dimension.notification_media_narrow_margin = global::TVOA.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::XamEffects.Droid.Resource.Dimension.notification_right_icon_size = global::TVOA.Droid.Resource.Dimension.notification_right_icon_size;
+			global::XamEffects.Droid.Resource.Dimension.notification_right_side_padding_top = global::TVOA.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::XamEffects.Droid.Resource.Dimension.notification_small_icon_background_padding = global::TVOA.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::XamEffects.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::TVOA.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::XamEffects.Droid.Resource.Dimension.notification_subtext_size = global::TVOA.Droid.Resource.Dimension.notification_subtext_size;
+			global::XamEffects.Droid.Resource.Dimension.notification_top_pad = global::TVOA.Droid.Resource.Dimension.notification_top_pad;
+			global::XamEffects.Droid.Resource.Dimension.notification_top_pad_large_text = global::TVOA.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::XamEffects.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::TVOA.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_btn_borderless_material = global::TVOA.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_btn_check_material = global::TVOA.Droid.Resource.Drawable.abc_btn_check_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::TVOA.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::XamEffects.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::TVOA.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::XamEffects.Droid.Resource.Drawable.abc_btn_colored_material = global::TVOA.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::TVOA.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::XamEffects.Droid.Resource.Drawable.abc_btn_radio_material = global::TVOA.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::TVOA.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::XamEffects.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::TVOA.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::XamEffects.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::TVOA.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::XamEffects.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::TVOA.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::XamEffects.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::TVOA.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::XamEffects.Droid.Resource.Drawable.abc_cab_background_top_material = global::TVOA.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_control_background_material = global::TVOA.Droid.Resource.Drawable.abc_control_background_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_dialog_material_background = global::TVOA.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::XamEffects.Droid.Resource.Drawable.abc_edit_text_material = global::TVOA.Droid.Resource.Drawable.abc_edit_text_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_ab_back_material = global::TVOA.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::TVOA.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_clear_material = global::TVOA.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::TVOA.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::TVOA.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::TVOA.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::TVOA.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_search_api_material = global::TVOA.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::TVOA.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::TVOA.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::TVOA.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::TVOA.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::TVOA.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::TVOA.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::XamEffects.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::TVOA.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_item_background_holo_dark = global::TVOA.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::XamEffects.Droid.Resource.Drawable.abc_item_background_holo_light = global::TVOA.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::XamEffects.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_list_focused_holo = global::TVOA.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::XamEffects.Droid.Resource.Drawable.abc_list_longpressed_holo = global::TVOA.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::XamEffects.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::TVOA.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::XamEffects.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::TVOA.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::XamEffects.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::TVOA.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::XamEffects.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::TVOA.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::XamEffects.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::TVOA.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::XamEffects.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::TVOA.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::XamEffects.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::TVOA.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::XamEffects.Droid.Resource.Drawable.abc_list_selector_holo_light = global::TVOA.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::XamEffects.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::TVOA.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::XamEffects.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::TVOA.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::XamEffects.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::TVOA.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_ratingbar_material = global::TVOA.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_ratingbar_small_material = global::TVOA.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::TVOA.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::XamEffects.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::TVOA.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::XamEffects.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::TVOA.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::TVOA.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_seekbar_track_material = global::TVOA.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::TVOA.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::TVOA.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_switch_thumb_material = global::TVOA.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_tab_indicator_material = global::TVOA.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_text_cursor_material = global::TVOA.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::TVOA.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::XamEffects.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::TVOA.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::XamEffects.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::TVOA.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::XamEffects.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::TVOA.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::XamEffects.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::TVOA.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::XamEffects.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::TVOA.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::XamEffects.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::TVOA.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::XamEffects.Droid.Resource.Drawable.abc_textfield_search_material = global::TVOA.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::XamEffects.Droid.Resource.Drawable.abc_vector_test = global::TVOA.Droid.Resource.Drawable.abc_vector_test;
+			global::XamEffects.Droid.Resource.Drawable.avd_hide_password = global::TVOA.Droid.Resource.Drawable.avd_hide_password;
+			global::XamEffects.Droid.Resource.Drawable.avd_show_password = global::TVOA.Droid.Resource.Drawable.avd_show_password;
+			global::XamEffects.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::TVOA.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::XamEffects.Droid.Resource.Drawable.design_fab_background = global::TVOA.Droid.Resource.Drawable.design_fab_background;
+			global::XamEffects.Droid.Resource.Drawable.design_ic_visibility = global::TVOA.Droid.Resource.Drawable.design_ic_visibility;
+			global::XamEffects.Droid.Resource.Drawable.design_ic_visibility_off = global::TVOA.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::XamEffects.Droid.Resource.Drawable.design_password_eye = global::TVOA.Droid.Resource.Drawable.design_password_eye;
+			global::XamEffects.Droid.Resource.Drawable.design_snackbar_background = global::TVOA.Droid.Resource.Drawable.design_snackbar_background;
+			global::XamEffects.Droid.Resource.Drawable.navigation_empty_icon = global::TVOA.Droid.Resource.Drawable.navigation_empty_icon;
+			global::XamEffects.Droid.Resource.Drawable.notification_action_background = global::TVOA.Droid.Resource.Drawable.notification_action_background;
+			global::XamEffects.Droid.Resource.Drawable.notification_bg = global::TVOA.Droid.Resource.Drawable.notification_bg;
+			global::XamEffects.Droid.Resource.Drawable.notification_bg_low = global::TVOA.Droid.Resource.Drawable.notification_bg_low;
+			global::XamEffects.Droid.Resource.Drawable.notification_bg_low_normal = global::TVOA.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::XamEffects.Droid.Resource.Drawable.notification_bg_low_pressed = global::TVOA.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::XamEffects.Droid.Resource.Drawable.notification_bg_normal = global::TVOA.Droid.Resource.Drawable.notification_bg_normal;
+			global::XamEffects.Droid.Resource.Drawable.notification_bg_normal_pressed = global::TVOA.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::XamEffects.Droid.Resource.Drawable.notification_icon_background = global::TVOA.Droid.Resource.Drawable.notification_icon_background;
+			global::XamEffects.Droid.Resource.Drawable.notification_template_icon_bg = global::TVOA.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::XamEffects.Droid.Resource.Drawable.notification_template_icon_low_bg = global::TVOA.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::XamEffects.Droid.Resource.Drawable.notification_tile_bg = global::TVOA.Droid.Resource.Drawable.notification_tile_bg;
+			global::XamEffects.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::TVOA.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::XamEffects.Droid.Resource.Id.action0 = global::TVOA.Droid.Resource.Id.action0;
+			global::XamEffects.Droid.Resource.Id.action_bar = global::TVOA.Droid.Resource.Id.action_bar;
+			global::XamEffects.Droid.Resource.Id.action_bar_activity_content = global::TVOA.Droid.Resource.Id.action_bar_activity_content;
+			global::XamEffects.Droid.Resource.Id.action_bar_container = global::TVOA.Droid.Resource.Id.action_bar_container;
+			global::XamEffects.Droid.Resource.Id.action_bar_root = global::TVOA.Droid.Resource.Id.action_bar_root;
+			global::XamEffects.Droid.Resource.Id.action_bar_spinner = global::TVOA.Droid.Resource.Id.action_bar_spinner;
+			global::XamEffects.Droid.Resource.Id.action_bar_subtitle = global::TVOA.Droid.Resource.Id.action_bar_subtitle;
+			global::XamEffects.Droid.Resource.Id.action_bar_title = global::TVOA.Droid.Resource.Id.action_bar_title;
+			global::XamEffects.Droid.Resource.Id.action_container = global::TVOA.Droid.Resource.Id.action_container;
+			global::XamEffects.Droid.Resource.Id.action_context_bar = global::TVOA.Droid.Resource.Id.action_context_bar;
+			global::XamEffects.Droid.Resource.Id.action_divider = global::TVOA.Droid.Resource.Id.action_divider;
+			global::XamEffects.Droid.Resource.Id.action_image = global::TVOA.Droid.Resource.Id.action_image;
+			global::XamEffects.Droid.Resource.Id.action_menu_divider = global::TVOA.Droid.Resource.Id.action_menu_divider;
+			global::XamEffects.Droid.Resource.Id.action_menu_presenter = global::TVOA.Droid.Resource.Id.action_menu_presenter;
+			global::XamEffects.Droid.Resource.Id.action_mode_bar = global::TVOA.Droid.Resource.Id.action_mode_bar;
+			global::XamEffects.Droid.Resource.Id.action_mode_bar_stub = global::TVOA.Droid.Resource.Id.action_mode_bar_stub;
+			global::XamEffects.Droid.Resource.Id.action_mode_close_button = global::TVOA.Droid.Resource.Id.action_mode_close_button;
+			global::XamEffects.Droid.Resource.Id.action_text = global::TVOA.Droid.Resource.Id.action_text;
+			global::XamEffects.Droid.Resource.Id.actions = global::TVOA.Droid.Resource.Id.actions;
+			global::XamEffects.Droid.Resource.Id.activity_chooser_view_content = global::TVOA.Droid.Resource.Id.activity_chooser_view_content;
+			global::XamEffects.Droid.Resource.Id.add = global::TVOA.Droid.Resource.Id.add;
+			global::XamEffects.Droid.Resource.Id.alertTitle = global::TVOA.Droid.Resource.Id.alertTitle;
+			global::XamEffects.Droid.Resource.Id.all = global::TVOA.Droid.Resource.Id.all;
+			global::XamEffects.Droid.Resource.Id.always = global::TVOA.Droid.Resource.Id.always;
+			global::XamEffects.Droid.Resource.Id.auto = global::TVOA.Droid.Resource.Id.auto;
+			global::XamEffects.Droid.Resource.Id.beginning = global::TVOA.Droid.Resource.Id.beginning;
+			global::XamEffects.Droid.Resource.Id.bottom = global::TVOA.Droid.Resource.Id.bottom;
+			global::XamEffects.Droid.Resource.Id.buttonPanel = global::TVOA.Droid.Resource.Id.buttonPanel;
+			global::XamEffects.Droid.Resource.Id.cancel_action = global::TVOA.Droid.Resource.Id.cancel_action;
+			global::XamEffects.Droid.Resource.Id.center = global::TVOA.Droid.Resource.Id.center;
+			global::XamEffects.Droid.Resource.Id.center_horizontal = global::TVOA.Droid.Resource.Id.center_horizontal;
+			global::XamEffects.Droid.Resource.Id.center_vertical = global::TVOA.Droid.Resource.Id.center_vertical;
+			global::XamEffects.Droid.Resource.Id.checkbox = global::TVOA.Droid.Resource.Id.checkbox;
+			global::XamEffects.Droid.Resource.Id.chronometer = global::TVOA.Droid.Resource.Id.chronometer;
+			global::XamEffects.Droid.Resource.Id.clip_horizontal = global::TVOA.Droid.Resource.Id.clip_horizontal;
+			global::XamEffects.Droid.Resource.Id.clip_vertical = global::TVOA.Droid.Resource.Id.clip_vertical;
+			global::XamEffects.Droid.Resource.Id.collapseActionView = global::TVOA.Droid.Resource.Id.collapseActionView;
+			global::XamEffects.Droid.Resource.Id.container = global::TVOA.Droid.Resource.Id.container;
+			global::XamEffects.Droid.Resource.Id.contentPanel = global::TVOA.Droid.Resource.Id.contentPanel;
+			global::XamEffects.Droid.Resource.Id.coordinator = global::TVOA.Droid.Resource.Id.coordinator;
+			global::XamEffects.Droid.Resource.Id.custom = global::TVOA.Droid.Resource.Id.custom;
+			global::XamEffects.Droid.Resource.Id.customPanel = global::TVOA.Droid.Resource.Id.customPanel;
+			global::XamEffects.Droid.Resource.Id.decor_content_parent = global::TVOA.Droid.Resource.Id.decor_content_parent;
+			global::XamEffects.Droid.Resource.Id.default_activity_button = global::TVOA.Droid.Resource.Id.default_activity_button;
+			global::XamEffects.Droid.Resource.Id.design_bottom_sheet = global::TVOA.Droid.Resource.Id.design_bottom_sheet;
+			global::XamEffects.Droid.Resource.Id.design_menu_item_action_area = global::TVOA.Droid.Resource.Id.design_menu_item_action_area;
+			global::XamEffects.Droid.Resource.Id.design_menu_item_action_area_stub = global::TVOA.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::XamEffects.Droid.Resource.Id.design_menu_item_text = global::TVOA.Droid.Resource.Id.design_menu_item_text;
+			global::XamEffects.Droid.Resource.Id.design_navigation_view = global::TVOA.Droid.Resource.Id.design_navigation_view;
+			global::XamEffects.Droid.Resource.Id.disableHome = global::TVOA.Droid.Resource.Id.disableHome;
+			global::XamEffects.Droid.Resource.Id.edit_query = global::TVOA.Droid.Resource.Id.edit_query;
+			global::XamEffects.Droid.Resource.Id.end = global::TVOA.Droid.Resource.Id.end;
+			global::XamEffects.Droid.Resource.Id.end_padder = global::TVOA.Droid.Resource.Id.end_padder;
+			global::XamEffects.Droid.Resource.Id.enterAlways = global::TVOA.Droid.Resource.Id.enterAlways;
+			global::XamEffects.Droid.Resource.Id.enterAlwaysCollapsed = global::TVOA.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::XamEffects.Droid.Resource.Id.exitUntilCollapsed = global::TVOA.Droid.Resource.Id.exitUntilCollapsed;
+			global::XamEffects.Droid.Resource.Id.expand_activities_button = global::TVOA.Droid.Resource.Id.expand_activities_button;
+			global::XamEffects.Droid.Resource.Id.expanded_menu = global::TVOA.Droid.Resource.Id.expanded_menu;
+			global::XamEffects.Droid.Resource.Id.fill = global::TVOA.Droid.Resource.Id.fill;
+			global::XamEffects.Droid.Resource.Id.fill_horizontal = global::TVOA.Droid.Resource.Id.fill_horizontal;
+			global::XamEffects.Droid.Resource.Id.fill_vertical = global::TVOA.Droid.Resource.Id.fill_vertical;
+			global::XamEffects.Droid.Resource.Id.@fixed = global::TVOA.Droid.Resource.Id.@fixed;
+			global::XamEffects.Droid.Resource.Id.home = global::TVOA.Droid.Resource.Id.home;
+			global::XamEffects.Droid.Resource.Id.homeAsUp = global::TVOA.Droid.Resource.Id.homeAsUp;
+			global::XamEffects.Droid.Resource.Id.icon = global::TVOA.Droid.Resource.Id.icon;
+			global::XamEffects.Droid.Resource.Id.icon_group = global::TVOA.Droid.Resource.Id.icon_group;
+			global::XamEffects.Droid.Resource.Id.ifRoom = global::TVOA.Droid.Resource.Id.ifRoom;
+			global::XamEffects.Droid.Resource.Id.image = global::TVOA.Droid.Resource.Id.image;
+			global::XamEffects.Droid.Resource.Id.info = global::TVOA.Droid.Resource.Id.info;
+			global::XamEffects.Droid.Resource.Id.item_touch_helper_previous_elevation = global::TVOA.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::XamEffects.Droid.Resource.Id.largeLabel = global::TVOA.Droid.Resource.Id.largeLabel;
+			global::XamEffects.Droid.Resource.Id.left = global::TVOA.Droid.Resource.Id.left;
+			global::XamEffects.Droid.Resource.Id.line1 = global::TVOA.Droid.Resource.Id.line1;
+			global::XamEffects.Droid.Resource.Id.line3 = global::TVOA.Droid.Resource.Id.line3;
+			global::XamEffects.Droid.Resource.Id.listMode = global::TVOA.Droid.Resource.Id.listMode;
+			global::XamEffects.Droid.Resource.Id.list_item = global::TVOA.Droid.Resource.Id.list_item;
+			global::XamEffects.Droid.Resource.Id.masked = global::TVOA.Droid.Resource.Id.masked;
+			global::XamEffects.Droid.Resource.Id.media_actions = global::TVOA.Droid.Resource.Id.media_actions;
+			global::XamEffects.Droid.Resource.Id.middle = global::TVOA.Droid.Resource.Id.middle;
+			global::XamEffects.Droid.Resource.Id.mini = global::TVOA.Droid.Resource.Id.mini;
+			global::XamEffects.Droid.Resource.Id.multiply = global::TVOA.Droid.Resource.Id.multiply;
+			global::XamEffects.Droid.Resource.Id.navigation_header_container = global::TVOA.Droid.Resource.Id.navigation_header_container;
+			global::XamEffects.Droid.Resource.Id.never = global::TVOA.Droid.Resource.Id.never;
+			global::XamEffects.Droid.Resource.Id.none = global::TVOA.Droid.Resource.Id.none;
+			global::XamEffects.Droid.Resource.Id.normal = global::TVOA.Droid.Resource.Id.normal;
+			global::XamEffects.Droid.Resource.Id.notification_background = global::TVOA.Droid.Resource.Id.notification_background;
+			global::XamEffects.Droid.Resource.Id.notification_main_column = global::TVOA.Droid.Resource.Id.notification_main_column;
+			global::XamEffects.Droid.Resource.Id.notification_main_column_container = global::TVOA.Droid.Resource.Id.notification_main_column_container;
+			global::XamEffects.Droid.Resource.Id.parallax = global::TVOA.Droid.Resource.Id.parallax;
+			global::XamEffects.Droid.Resource.Id.parentPanel = global::TVOA.Droid.Resource.Id.parentPanel;
+			global::XamEffects.Droid.Resource.Id.pin = global::TVOA.Droid.Resource.Id.pin;
+			global::XamEffects.Droid.Resource.Id.progress_circular = global::TVOA.Droid.Resource.Id.progress_circular;
+			global::XamEffects.Droid.Resource.Id.progress_horizontal = global::TVOA.Droid.Resource.Id.progress_horizontal;
+			global::XamEffects.Droid.Resource.Id.radio = global::TVOA.Droid.Resource.Id.radio;
+			global::XamEffects.Droid.Resource.Id.right = global::TVOA.Droid.Resource.Id.right;
+			global::XamEffects.Droid.Resource.Id.right_icon = global::TVOA.Droid.Resource.Id.right_icon;
+			global::XamEffects.Droid.Resource.Id.right_side = global::TVOA.Droid.Resource.Id.right_side;
+			global::XamEffects.Droid.Resource.Id.screen = global::TVOA.Droid.Resource.Id.screen;
+			global::XamEffects.Droid.Resource.Id.scroll = global::TVOA.Droid.Resource.Id.scroll;
+			global::XamEffects.Droid.Resource.Id.scrollIndicatorDown = global::TVOA.Droid.Resource.Id.scrollIndicatorDown;
+			global::XamEffects.Droid.Resource.Id.scrollIndicatorUp = global::TVOA.Droid.Resource.Id.scrollIndicatorUp;
+			global::XamEffects.Droid.Resource.Id.scrollView = global::TVOA.Droid.Resource.Id.scrollView;
+			global::XamEffects.Droid.Resource.Id.scrollable = global::TVOA.Droid.Resource.Id.scrollable;
+			global::XamEffects.Droid.Resource.Id.search_badge = global::TVOA.Droid.Resource.Id.search_badge;
+			global::XamEffects.Droid.Resource.Id.search_bar = global::TVOA.Droid.Resource.Id.search_bar;
+			global::XamEffects.Droid.Resource.Id.search_button = global::TVOA.Droid.Resource.Id.search_button;
+			global::XamEffects.Droid.Resource.Id.search_close_btn = global::TVOA.Droid.Resource.Id.search_close_btn;
+			global::XamEffects.Droid.Resource.Id.search_edit_frame = global::TVOA.Droid.Resource.Id.search_edit_frame;
+			global::XamEffects.Droid.Resource.Id.search_go_btn = global::TVOA.Droid.Resource.Id.search_go_btn;
+			global::XamEffects.Droid.Resource.Id.search_mag_icon = global::TVOA.Droid.Resource.Id.search_mag_icon;
+			global::XamEffects.Droid.Resource.Id.search_plate = global::TVOA.Droid.Resource.Id.search_plate;
+			global::XamEffects.Droid.Resource.Id.search_src_text = global::TVOA.Droid.Resource.Id.search_src_text;
+			global::XamEffects.Droid.Resource.Id.search_voice_btn = global::TVOA.Droid.Resource.Id.search_voice_btn;
+			global::XamEffects.Droid.Resource.Id.select_dialog_listview = global::TVOA.Droid.Resource.Id.select_dialog_listview;
+			global::XamEffects.Droid.Resource.Id.shortcut = global::TVOA.Droid.Resource.Id.shortcut;
+			global::XamEffects.Droid.Resource.Id.showCustom = global::TVOA.Droid.Resource.Id.showCustom;
+			global::XamEffects.Droid.Resource.Id.showHome = global::TVOA.Droid.Resource.Id.showHome;
+			global::XamEffects.Droid.Resource.Id.showTitle = global::TVOA.Droid.Resource.Id.showTitle;
+			global::XamEffects.Droid.Resource.Id.smallLabel = global::TVOA.Droid.Resource.Id.smallLabel;
+			global::XamEffects.Droid.Resource.Id.snackbar_action = global::TVOA.Droid.Resource.Id.snackbar_action;
+			global::XamEffects.Droid.Resource.Id.snackbar_text = global::TVOA.Droid.Resource.Id.snackbar_text;
+			global::XamEffects.Droid.Resource.Id.snap = global::TVOA.Droid.Resource.Id.snap;
+			global::XamEffects.Droid.Resource.Id.spacer = global::TVOA.Droid.Resource.Id.spacer;
+			global::XamEffects.Droid.Resource.Id.split_action_bar = global::TVOA.Droid.Resource.Id.split_action_bar;
+			global::XamEffects.Droid.Resource.Id.src_atop = global::TVOA.Droid.Resource.Id.src_atop;
+			global::XamEffects.Droid.Resource.Id.src_in = global::TVOA.Droid.Resource.Id.src_in;
+			global::XamEffects.Droid.Resource.Id.src_over = global::TVOA.Droid.Resource.Id.src_over;
+			global::XamEffects.Droid.Resource.Id.start = global::TVOA.Droid.Resource.Id.start;
+			global::XamEffects.Droid.Resource.Id.status_bar_latest_event_content = global::TVOA.Droid.Resource.Id.status_bar_latest_event_content;
+			global::XamEffects.Droid.Resource.Id.submenuarrow = global::TVOA.Droid.Resource.Id.submenuarrow;
+			global::XamEffects.Droid.Resource.Id.submit_area = global::TVOA.Droid.Resource.Id.submit_area;
+			global::XamEffects.Droid.Resource.Id.tabMode = global::TVOA.Droid.Resource.Id.tabMode;
+			global::XamEffects.Droid.Resource.Id.text = global::TVOA.Droid.Resource.Id.text;
+			global::XamEffects.Droid.Resource.Id.text2 = global::TVOA.Droid.Resource.Id.text2;
+			global::XamEffects.Droid.Resource.Id.textSpacerNoButtons = global::TVOA.Droid.Resource.Id.textSpacerNoButtons;
+			global::XamEffects.Droid.Resource.Id.textSpacerNoTitle = global::TVOA.Droid.Resource.Id.textSpacerNoTitle;
+			global::XamEffects.Droid.Resource.Id.textinput_counter = global::TVOA.Droid.Resource.Id.textinput_counter;
+			global::XamEffects.Droid.Resource.Id.textinput_error = global::TVOA.Droid.Resource.Id.textinput_error;
+			global::XamEffects.Droid.Resource.Id.time = global::TVOA.Droid.Resource.Id.time;
+			global::XamEffects.Droid.Resource.Id.title = global::TVOA.Droid.Resource.Id.title;
+			global::XamEffects.Droid.Resource.Id.titleDividerNoCustom = global::TVOA.Droid.Resource.Id.titleDividerNoCustom;
+			global::XamEffects.Droid.Resource.Id.title_template = global::TVOA.Droid.Resource.Id.title_template;
+			global::XamEffects.Droid.Resource.Id.top = global::TVOA.Droid.Resource.Id.top;
+			global::XamEffects.Droid.Resource.Id.topPanel = global::TVOA.Droid.Resource.Id.topPanel;
+			global::XamEffects.Droid.Resource.Id.touch_outside = global::TVOA.Droid.Resource.Id.touch_outside;
+			global::XamEffects.Droid.Resource.Id.transition_current_scene = global::TVOA.Droid.Resource.Id.transition_current_scene;
+			global::XamEffects.Droid.Resource.Id.transition_scene_layoutid_cache = global::TVOA.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::XamEffects.Droid.Resource.Id.up = global::TVOA.Droid.Resource.Id.up;
+			global::XamEffects.Droid.Resource.Id.useLogo = global::TVOA.Droid.Resource.Id.useLogo;
+			global::XamEffects.Droid.Resource.Id.view_offset_helper = global::TVOA.Droid.Resource.Id.view_offset_helper;
+			global::XamEffects.Droid.Resource.Id.visible = global::TVOA.Droid.Resource.Id.visible;
+			global::XamEffects.Droid.Resource.Id.withText = global::TVOA.Droid.Resource.Id.withText;
+			global::XamEffects.Droid.Resource.Id.wrap_content = global::TVOA.Droid.Resource.Id.wrap_content;
+			global::XamEffects.Droid.Resource.Integer.abc_config_activityDefaultDur = global::TVOA.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::XamEffects.Droid.Resource.Integer.abc_config_activityShortDur = global::TVOA.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::XamEffects.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::TVOA.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::XamEffects.Droid.Resource.Integer.bottom_sheet_slide_duration = global::TVOA.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::XamEffects.Droid.Resource.Integer.cancel_button_image_alpha = global::TVOA.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::XamEffects.Droid.Resource.Integer.design_snackbar_text_max_lines = global::TVOA.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::XamEffects.Droid.Resource.Integer.hide_password_duration = global::TVOA.Droid.Resource.Integer.hide_password_duration;
+			global::XamEffects.Droid.Resource.Integer.show_password_duration = global::TVOA.Droid.Resource.Integer.show_password_duration;
+			global::XamEffects.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::TVOA.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::XamEffects.Droid.Resource.Layout.abc_action_bar_title_item = global::TVOA.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::XamEffects.Droid.Resource.Layout.abc_action_bar_up_container = global::TVOA.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::XamEffects.Droid.Resource.Layout.abc_action_menu_item_layout = global::TVOA.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::XamEffects.Droid.Resource.Layout.abc_action_menu_layout = global::TVOA.Droid.Resource.Layout.abc_action_menu_layout;
+			global::XamEffects.Droid.Resource.Layout.abc_action_mode_bar = global::TVOA.Droid.Resource.Layout.abc_action_mode_bar;
+			global::XamEffects.Droid.Resource.Layout.abc_action_mode_close_item_material = global::TVOA.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::XamEffects.Droid.Resource.Layout.abc_activity_chooser_view = global::TVOA.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::XamEffects.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::TVOA.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::XamEffects.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::TVOA.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::XamEffects.Droid.Resource.Layout.abc_alert_dialog_material = global::TVOA.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::XamEffects.Droid.Resource.Layout.abc_alert_dialog_title_material = global::TVOA.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::XamEffects.Droid.Resource.Layout.abc_dialog_title_material = global::TVOA.Droid.Resource.Layout.abc_dialog_title_material;
+			global::XamEffects.Droid.Resource.Layout.abc_expanded_menu_layout = global::TVOA.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::XamEffects.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::TVOA.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::XamEffects.Droid.Resource.Layout.abc_list_menu_item_icon = global::TVOA.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::XamEffects.Droid.Resource.Layout.abc_list_menu_item_layout = global::TVOA.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::XamEffects.Droid.Resource.Layout.abc_list_menu_item_radio = global::TVOA.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::XamEffects.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::TVOA.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::XamEffects.Droid.Resource.Layout.abc_popup_menu_item_layout = global::TVOA.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::XamEffects.Droid.Resource.Layout.abc_screen_content_include = global::TVOA.Droid.Resource.Layout.abc_screen_content_include;
+			global::XamEffects.Droid.Resource.Layout.abc_screen_simple = global::TVOA.Droid.Resource.Layout.abc_screen_simple;
+			global::XamEffects.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::TVOA.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::XamEffects.Droid.Resource.Layout.abc_screen_toolbar = global::TVOA.Droid.Resource.Layout.abc_screen_toolbar;
+			global::XamEffects.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::TVOA.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::XamEffects.Droid.Resource.Layout.abc_search_view = global::TVOA.Droid.Resource.Layout.abc_search_view;
+			global::XamEffects.Droid.Resource.Layout.abc_select_dialog_material = global::TVOA.Droid.Resource.Layout.abc_select_dialog_material;
+			global::XamEffects.Droid.Resource.Layout.design_bottom_navigation_item = global::TVOA.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::XamEffects.Droid.Resource.Layout.design_bottom_sheet_dialog = global::TVOA.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::XamEffects.Droid.Resource.Layout.design_layout_snackbar = global::TVOA.Droid.Resource.Layout.design_layout_snackbar;
+			global::XamEffects.Droid.Resource.Layout.design_layout_snackbar_include = global::TVOA.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::XamEffects.Droid.Resource.Layout.design_layout_tab_icon = global::TVOA.Droid.Resource.Layout.design_layout_tab_icon;
+			global::XamEffects.Droid.Resource.Layout.design_layout_tab_text = global::TVOA.Droid.Resource.Layout.design_layout_tab_text;
+			global::XamEffects.Droid.Resource.Layout.design_menu_item_action_area = global::TVOA.Droid.Resource.Layout.design_menu_item_action_area;
+			global::XamEffects.Droid.Resource.Layout.design_navigation_item = global::TVOA.Droid.Resource.Layout.design_navigation_item;
+			global::XamEffects.Droid.Resource.Layout.design_navigation_item_header = global::TVOA.Droid.Resource.Layout.design_navigation_item_header;
+			global::XamEffects.Droid.Resource.Layout.design_navigation_item_separator = global::TVOA.Droid.Resource.Layout.design_navigation_item_separator;
+			global::XamEffects.Droid.Resource.Layout.design_navigation_item_subheader = global::TVOA.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::XamEffects.Droid.Resource.Layout.design_navigation_menu = global::TVOA.Droid.Resource.Layout.design_navigation_menu;
+			global::XamEffects.Droid.Resource.Layout.design_navigation_menu_item = global::TVOA.Droid.Resource.Layout.design_navigation_menu_item;
+			global::XamEffects.Droid.Resource.Layout.notification_action = global::TVOA.Droid.Resource.Layout.notification_action;
+			global::XamEffects.Droid.Resource.Layout.notification_action_tombstone = global::TVOA.Droid.Resource.Layout.notification_action_tombstone;
+			global::XamEffects.Droid.Resource.Layout.notification_media_action = global::TVOA.Droid.Resource.Layout.notification_media_action;
+			global::XamEffects.Droid.Resource.Layout.notification_media_cancel_action = global::TVOA.Droid.Resource.Layout.notification_media_cancel_action;
+			global::XamEffects.Droid.Resource.Layout.notification_template_big_media = global::TVOA.Droid.Resource.Layout.notification_template_big_media;
+			global::XamEffects.Droid.Resource.Layout.notification_template_big_media_custom = global::TVOA.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::XamEffects.Droid.Resource.Layout.notification_template_big_media_narrow = global::TVOA.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::XamEffects.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::TVOA.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::XamEffects.Droid.Resource.Layout.notification_template_custom_big = global::TVOA.Droid.Resource.Layout.notification_template_custom_big;
+			global::XamEffects.Droid.Resource.Layout.notification_template_icon_group = global::TVOA.Droid.Resource.Layout.notification_template_icon_group;
+			global::XamEffects.Droid.Resource.Layout.notification_template_lines_media = global::TVOA.Droid.Resource.Layout.notification_template_lines_media;
+			global::XamEffects.Droid.Resource.Layout.notification_template_media = global::TVOA.Droid.Resource.Layout.notification_template_media;
+			global::XamEffects.Droid.Resource.Layout.notification_template_media_custom = global::TVOA.Droid.Resource.Layout.notification_template_media_custom;
+			global::XamEffects.Droid.Resource.Layout.notification_template_part_chronometer = global::TVOA.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::XamEffects.Droid.Resource.Layout.notification_template_part_time = global::TVOA.Droid.Resource.Layout.notification_template_part_time;
+			global::XamEffects.Droid.Resource.Layout.select_dialog_item_material = global::TVOA.Droid.Resource.Layout.select_dialog_item_material;
+			global::XamEffects.Droid.Resource.Layout.select_dialog_multichoice_material = global::TVOA.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::XamEffects.Droid.Resource.Layout.select_dialog_singlechoice_material = global::TVOA.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::XamEffects.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::TVOA.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::XamEffects.Droid.Resource.String.ApplicationName = global::TVOA.Droid.Resource.String.ApplicationName;
+			global::XamEffects.Droid.Resource.String.Hello = global::TVOA.Droid.Resource.String.Hello;
+			global::XamEffects.Droid.Resource.String.abc_action_bar_home_description = global::TVOA.Droid.Resource.String.abc_action_bar_home_description;
+			global::XamEffects.Droid.Resource.String.abc_action_bar_up_description = global::TVOA.Droid.Resource.String.abc_action_bar_up_description;
+			global::XamEffects.Droid.Resource.String.abc_action_menu_overflow_description = global::TVOA.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::XamEffects.Droid.Resource.String.abc_action_mode_done = global::TVOA.Droid.Resource.String.abc_action_mode_done;
+			global::XamEffects.Droid.Resource.String.abc_activity_chooser_view_see_all = global::TVOA.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::XamEffects.Droid.Resource.String.abc_activitychooserview_choose_application = global::TVOA.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::XamEffects.Droid.Resource.String.abc_capital_off = global::TVOA.Droid.Resource.String.abc_capital_off;
+			global::XamEffects.Droid.Resource.String.abc_capital_on = global::TVOA.Droid.Resource.String.abc_capital_on;
+			global::XamEffects.Droid.Resource.String.abc_search_hint = global::TVOA.Droid.Resource.String.abc_search_hint;
+			global::XamEffects.Droid.Resource.String.abc_searchview_description_clear = global::TVOA.Droid.Resource.String.abc_searchview_description_clear;
+			global::XamEffects.Droid.Resource.String.abc_searchview_description_query = global::TVOA.Droid.Resource.String.abc_searchview_description_query;
+			global::XamEffects.Droid.Resource.String.abc_searchview_description_search = global::TVOA.Droid.Resource.String.abc_searchview_description_search;
+			global::XamEffects.Droid.Resource.String.abc_searchview_description_submit = global::TVOA.Droid.Resource.String.abc_searchview_description_submit;
+			global::XamEffects.Droid.Resource.String.abc_searchview_description_voice = global::TVOA.Droid.Resource.String.abc_searchview_description_voice;
+			global::XamEffects.Droid.Resource.String.abc_shareactionprovider_share_with = global::TVOA.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::XamEffects.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::TVOA.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::XamEffects.Droid.Resource.String.abc_toolbar_collapse_description = global::TVOA.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::XamEffects.Droid.Resource.String.appbar_scrolling_view_behavior = global::TVOA.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::XamEffects.Droid.Resource.String.bottom_sheet_behavior = global::TVOA.Droid.Resource.String.bottom_sheet_behavior;
+			global::XamEffects.Droid.Resource.String.character_counter_pattern = global::TVOA.Droid.Resource.String.character_counter_pattern;
+			global::XamEffects.Droid.Resource.String.password_toggle_content_description = global::TVOA.Droid.Resource.String.password_toggle_content_description;
+			global::XamEffects.Droid.Resource.String.path_password_eye = global::TVOA.Droid.Resource.String.path_password_eye;
+			global::XamEffects.Droid.Resource.String.path_password_eye_mask_strike_through = global::TVOA.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::XamEffects.Droid.Resource.String.path_password_eye_mask_visible = global::TVOA.Droid.Resource.String.path_password_eye_mask_visible;
+			global::XamEffects.Droid.Resource.String.path_password_strike_through = global::TVOA.Droid.Resource.String.path_password_strike_through;
+			global::XamEffects.Droid.Resource.String.search_menu_title = global::TVOA.Droid.Resource.String.search_menu_title;
+			global::XamEffects.Droid.Resource.String.status_bar_notification_info_overflow = global::TVOA.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::XamEffects.Droid.Resource.Style.AlertDialog_AppCompat = global::TVOA.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::XamEffects.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::TVOA.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::XamEffects.Droid.Resource.Style.Animation_AppCompat_Dialog = global::TVOA.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::XamEffects.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::TVOA.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::XamEffects.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::TVOA.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::XamEffects.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::TVOA.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::TVOA.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::XamEffects.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::TVOA.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::XamEffects.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::TVOA.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::XamEffects.Droid.Resource.Style.Base_CardView = global::TVOA.Droid.Resource.Style.Base_CardView;
+			global::XamEffects.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::TVOA.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::TVOA.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::TVOA.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::TVOA.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::TVOA.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::XamEffects.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::TVOA.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat = global::TVOA.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::TVOA.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::TVOA.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::TVOA.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::TVOA.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::TVOA.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::TVOA.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::TVOA.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::TVOA.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::TVOA.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::TVOA.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::TVOA.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::TVOA.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::XamEffects.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::TVOA.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::XamEffects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::TVOA.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::TVOA.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::XamEffects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::TVOA.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::XamEffects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::TVOA.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::XamEffects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::TVOA.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::XamEffects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::TVOA.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::XamEffects.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::TVOA.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::XamEffects.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::TVOA.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::TVOA.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::XamEffects.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::TVOA.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::XamEffects.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::TVOA.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::XamEffects.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::TVOA.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::XamEffects.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::TVOA.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::TVOA.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::XamEffects.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::TVOA.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::TVOA.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::XamEffects.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::TVOA.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::TVOA.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::XamEffects.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::TVOA.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::XamEffects.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::TVOA.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::XamEffects.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::TVOA.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::XamEffects.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::TVOA.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::XamEffects.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::TVOA.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::TVOA.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::XamEffects.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::TVOA.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::XamEffects.Droid.Resource.Style.CardView = global::TVOA.Droid.Resource.Style.CardView;
+			global::XamEffects.Droid.Resource.Style.CardView_Dark = global::TVOA.Droid.Resource.Style.CardView_Dark;
+			global::XamEffects.Droid.Resource.Style.CardView_Light = global::TVOA.Droid.Resource.Style.CardView_Light;
+			global::XamEffects.Droid.Resource.Style.Platform_AppCompat = global::TVOA.Droid.Resource.Style.Platform_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Platform_AppCompat_Light = global::TVOA.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::XamEffects.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::TVOA.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::TVOA.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::XamEffects.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::TVOA.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::XamEffects.Droid.Resource.Style.Platform_V21_AppCompat = global::TVOA.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::TVOA.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::XamEffects.Droid.Resource.Style.Platform_V25_AppCompat = global::TVOA.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::TVOA.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::XamEffects.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::TVOA.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::XamEffects.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::TVOA.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::TVOA.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::TVOA.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::TVOA.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::TVOA.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::TVOA.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::TVOA.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::TVOA.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::TVOA.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::TVOA.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::TVOA.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::XamEffects.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::TVOA.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::XamEffects.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::TVOA.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::XamEffects.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::TVOA.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::TVOA.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::TVOA.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_Design_Counter = global::TVOA.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::TVOA.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_Design_Error = global::TVOA.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_Design_Hint = global::TVOA.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::TVOA.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_Design_Tab = global::TVOA.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::TVOA.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::TVOA.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::XamEffects.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::TVOA.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat = global::TVOA.Droid.Resource.Style.Theme_AppCompat;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::TVOA.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DayNight = global::TVOA.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::TVOA.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::TVOA.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::TVOA.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::TVOA.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::TVOA.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::TVOA.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Dialog = global::TVOA.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::TVOA.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::TVOA.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::TVOA.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Light = global::TVOA.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::TVOA.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::TVOA.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::TVOA.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::TVOA.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::TVOA.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::TVOA.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::XamEffects.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::TVOA.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::XamEffects.Droid.Resource.Style.Theme_Design = global::TVOA.Droid.Resource.Style.Theme_Design;
+			global::XamEffects.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::TVOA.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::XamEffects.Droid.Resource.Style.Theme_Design_Light = global::TVOA.Droid.Resource.Style.Theme_Design_Light;
+			global::XamEffects.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::TVOA.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::XamEffects.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::TVOA.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::XamEffects.Droid.Resource.Style.Theme_Design_NoActionBar = global::TVOA.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::XamEffects.Droid.Resource.Style.ThemeOverlay_AppCompat = global::TVOA.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::XamEffects.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::TVOA.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::XamEffects.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::TVOA.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::XamEffects.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::TVOA.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::XamEffects.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::TVOA.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::XamEffects.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::TVOA.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::XamEffects.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::TVOA.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::TVOA.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Button = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::TVOA.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::TVOA.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::TVOA.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::TVOA.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::TVOA.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_EditText = global::TVOA.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ListView = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::TVOA.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::TVOA.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::TVOA.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::TVOA.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::TVOA.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::TVOA.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::TVOA.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_SearchView = global::TVOA.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::TVOA.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::TVOA.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::TVOA.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Spinner = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::TVOA.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::XamEffects.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::TVOA.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::XamEffects.Droid.Resource.Style.Widget_Design_AppBarLayout = global::TVOA.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::XamEffects.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::TVOA.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::XamEffects.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::TVOA.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::XamEffects.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::TVOA.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::XamEffects.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::TVOA.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::XamEffects.Droid.Resource.Style.Widget_Design_NavigationView = global::TVOA.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::XamEffects.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::TVOA.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::XamEffects.Droid.Resource.Style.Widget_Design_Snackbar = global::TVOA.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::XamEffects.Droid.Resource.Style.Widget_Design_TabLayout = global::TVOA.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::XamEffects.Droid.Resource.Style.Widget_Design_TextInputLayout = global::TVOA.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar = global::TVOA.Droid.Resource.Styleable.ActionBar;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_background = global::TVOA.Droid.Resource.Styleable.ActionBar_background;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::TVOA.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::TVOA.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::TVOA.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::TVOA.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::TVOA.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::TVOA.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::TVOA.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::TVOA.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::TVOA.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_displayOptions = global::TVOA.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_divider = global::TVOA.Droid.Resource.Styleable.ActionBar_divider;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_elevation = global::TVOA.Droid.Resource.Styleable.ActionBar_elevation;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_height = global::TVOA.Droid.Resource.Styleable.ActionBar_height;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::TVOA.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::TVOA.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_homeLayout = global::TVOA.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_icon = global::TVOA.Droid.Resource.Styleable.ActionBar_icon;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::TVOA.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_itemPadding = global::TVOA.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_logo = global::TVOA.Droid.Resource.Styleable.ActionBar_logo;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_navigationMode = global::TVOA.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_popupTheme = global::TVOA.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::TVOA.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::TVOA.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_subtitle = global::TVOA.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::TVOA.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_title = global::TVOA.Droid.Resource.Styleable.ActionBar_title;
+			global::XamEffects.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::TVOA.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::XamEffects.Droid.Resource.Styleable.ActionBarLayout = global::TVOA.Droid.Resource.Styleable.ActionBarLayout;
+			global::XamEffects.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::TVOA.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::XamEffects.Droid.Resource.Styleable.ActionMenuItemView = global::TVOA.Droid.Resource.Styleable.ActionMenuItemView;
+			global::XamEffects.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::TVOA.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::XamEffects.Droid.Resource.Styleable.ActionMenuView = global::TVOA.Droid.Resource.Styleable.ActionMenuView;
+			global::XamEffects.Droid.Resource.Styleable.ActionMode = global::TVOA.Droid.Resource.Styleable.ActionMode;
+			global::XamEffects.Droid.Resource.Styleable.ActionMode_background = global::TVOA.Droid.Resource.Styleable.ActionMode_background;
+			global::XamEffects.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::TVOA.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::XamEffects.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::TVOA.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::XamEffects.Droid.Resource.Styleable.ActionMode_height = global::TVOA.Droid.Resource.Styleable.ActionMode_height;
+			global::XamEffects.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::TVOA.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::XamEffects.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::TVOA.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::XamEffects.Droid.Resource.Styleable.ActivityChooserView = global::TVOA.Droid.Resource.Styleable.ActivityChooserView;
+			global::XamEffects.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::TVOA.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::XamEffects.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::TVOA.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::XamEffects.Droid.Resource.Styleable.AlertDialog = global::TVOA.Droid.Resource.Styleable.AlertDialog;
+			global::XamEffects.Droid.Resource.Styleable.AlertDialog_android_layout = global::TVOA.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::XamEffects.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::TVOA.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::XamEffects.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::TVOA.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::XamEffects.Droid.Resource.Styleable.AlertDialog_listLayout = global::TVOA.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::XamEffects.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::TVOA.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::XamEffects.Droid.Resource.Styleable.AlertDialog_showTitle = global::TVOA.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::XamEffects.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::TVOA.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::XamEffects.Droid.Resource.Styleable.AppBarLayout = global::TVOA.Droid.Resource.Styleable.AppBarLayout;
+			global::XamEffects.Droid.Resource.Styleable.AppBarLayout_android_background = global::TVOA.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::XamEffects.Droid.Resource.Styleable.AppBarLayout_elevation = global::TVOA.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::XamEffects.Droid.Resource.Styleable.AppBarLayout_expanded = global::TVOA.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::XamEffects.Droid.Resource.Styleable.AppBarLayoutStates = global::TVOA.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::XamEffects.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::TVOA.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::XamEffects.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::TVOA.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::XamEffects.Droid.Resource.Styleable.AppBarLayout_Layout = global::TVOA.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::XamEffects.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::TVOA.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::XamEffects.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::TVOA.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatImageView = global::TVOA.Droid.Resource.Styleable.AppCompatImageView;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatImageView_android_src = global::TVOA.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::TVOA.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatImageView_tint = global::TVOA.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::TVOA.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatSeekBar = global::TVOA.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::TVOA.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::TVOA.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::TVOA.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::TVOA.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper = global::TVOA.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::TVOA.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::TVOA.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::TVOA.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::TVOA.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::TVOA.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::TVOA.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::TVOA.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTextView = global::TVOA.Droid.Resource.Styleable.AppCompatTextView;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::TVOA.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::TVOA.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme = global::TVOA.Droid.Resource.Styleable.AppCompatTheme;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::XamEffects.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::TVOA.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::XamEffects.Droid.Resource.Styleable.BottomNavigationView = global::TVOA.Droid.Resource.Styleable.BottomNavigationView;
+			global::XamEffects.Droid.Resource.Styleable.BottomNavigationView_elevation = global::TVOA.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::XamEffects.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::TVOA.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::XamEffects.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::TVOA.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::XamEffects.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::TVOA.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::XamEffects.Droid.Resource.Styleable.BottomNavigationView_menu = global::TVOA.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::XamEffects.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::TVOA.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::XamEffects.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::TVOA.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::XamEffects.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::TVOA.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::XamEffects.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::TVOA.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::XamEffects.Droid.Resource.Styleable.ButtonBarLayout = global::TVOA.Droid.Resource.Styleable.ButtonBarLayout;
+			global::XamEffects.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::TVOA.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::XamEffects.Droid.Resource.Styleable.CardView = global::TVOA.Droid.Resource.Styleable.CardView;
+			global::XamEffects.Droid.Resource.Styleable.CardView_android_minHeight = global::TVOA.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::XamEffects.Droid.Resource.Styleable.CardView_android_minWidth = global::TVOA.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::XamEffects.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::TVOA.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::XamEffects.Droid.Resource.Styleable.CardView_cardCornerRadius = global::TVOA.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::XamEffects.Droid.Resource.Styleable.CardView_cardElevation = global::TVOA.Droid.Resource.Styleable.CardView_cardElevation;
+			global::XamEffects.Droid.Resource.Styleable.CardView_cardMaxElevation = global::TVOA.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::XamEffects.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::TVOA.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::XamEffects.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::TVOA.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::XamEffects.Droid.Resource.Styleable.CardView_contentPadding = global::TVOA.Droid.Resource.Styleable.CardView_contentPadding;
+			global::XamEffects.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::TVOA.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::XamEffects.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::TVOA.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::XamEffects.Droid.Resource.Styleable.CardView_contentPaddingRight = global::TVOA.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::XamEffects.Droid.Resource.Styleable.CardView_contentPaddingTop = global::TVOA.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::XamEffects.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::TVOA.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::XamEffects.Droid.Resource.Styleable.ColorStateListItem = global::TVOA.Droid.Resource.Styleable.ColorStateListItem;
+			global::XamEffects.Droid.Resource.Styleable.ColorStateListItem_alpha = global::TVOA.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::XamEffects.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::TVOA.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::XamEffects.Droid.Resource.Styleable.ColorStateListItem_android_color = global::TVOA.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::XamEffects.Droid.Resource.Styleable.CompoundButton = global::TVOA.Droid.Resource.Styleable.CompoundButton;
+			global::XamEffects.Droid.Resource.Styleable.CompoundButton_android_button = global::TVOA.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::XamEffects.Droid.Resource.Styleable.CompoundButton_buttonTint = global::TVOA.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::XamEffects.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::TVOA.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout = global::TVOA.Droid.Resource.Styleable.CoordinatorLayout;
+			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::TVOA.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::TVOA.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::TVOA.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::TVOA.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::TVOA.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::TVOA.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::TVOA.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::TVOA.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::TVOA.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::XamEffects.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::TVOA.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle = global::TVOA.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::TVOA.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::TVOA.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::TVOA.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_color = global::TVOA.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::TVOA.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::TVOA.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::TVOA.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::XamEffects.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::TVOA.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton = global::TVOA.Droid.Resource.Styleable.FloatingActionButton;
+			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::TVOA.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::TVOA.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::TVOA.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_elevation = global::TVOA.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::TVOA.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::TVOA.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::TVOA.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::TVOA.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::TVOA.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::XamEffects.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::TVOA.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::XamEffects.Droid.Resource.Styleable.ForegroundLinearLayout = global::TVOA.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::XamEffects.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::TVOA.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::XamEffects.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::TVOA.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::XamEffects.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::TVOA.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::XamEffects.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::TVOA.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::XamEffects.Droid.Resource.Styleable.ListPopupWindow = global::TVOA.Droid.Resource.Styleable.ListPopupWindow;
+			global::XamEffects.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::TVOA.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::XamEffects.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::TVOA.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::XamEffects.Droid.Resource.Styleable.MenuGroup = global::TVOA.Droid.Resource.Styleable.MenuGroup;
+			global::XamEffects.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::TVOA.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::XamEffects.Droid.Resource.Styleable.MenuGroup_android_enabled = global::TVOA.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::XamEffects.Droid.Resource.Styleable.MenuGroup_android_id = global::TVOA.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::XamEffects.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::TVOA.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::XamEffects.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::TVOA.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::XamEffects.Droid.Resource.Styleable.MenuGroup_android_visible = global::TVOA.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem = global::TVOA.Droid.Resource.Styleable.MenuItem;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_actionLayout = global::TVOA.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::TVOA.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_actionViewClass = global::TVOA.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::TVOA.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_checkable = global::TVOA.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_checked = global::TVOA.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_enabled = global::TVOA.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_icon = global::TVOA.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_id = global::TVOA.Droid.Resource.Styleable.MenuItem_android_id;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::TVOA.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::TVOA.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_onClick = global::TVOA.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::TVOA.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_title = global::TVOA.Droid.Resource.Styleable.MenuItem_android_title;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::TVOA.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_android_visible = global::TVOA.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::XamEffects.Droid.Resource.Styleable.MenuItem_showAsAction = global::TVOA.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::XamEffects.Droid.Resource.Styleable.MenuView = global::TVOA.Droid.Resource.Styleable.MenuView;
+			global::XamEffects.Droid.Resource.Styleable.MenuView_android_headerBackground = global::TVOA.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::XamEffects.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::TVOA.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::XamEffects.Droid.Resource.Styleable.MenuView_android_itemBackground = global::TVOA.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::XamEffects.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::TVOA.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::XamEffects.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::TVOA.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::XamEffects.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::TVOA.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::XamEffects.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::TVOA.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::XamEffects.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::TVOA.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::XamEffects.Droid.Resource.Styleable.MenuView_subMenuArrow = global::TVOA.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::XamEffects.Droid.Resource.Styleable.NavigationView = global::TVOA.Droid.Resource.Styleable.NavigationView;
+			global::XamEffects.Droid.Resource.Styleable.NavigationView_android_background = global::TVOA.Droid.Resource.Styleable.NavigationView_android_background;
+			global::XamEffects.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::TVOA.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::XamEffects.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::TVOA.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::XamEffects.Droid.Resource.Styleable.NavigationView_elevation = global::TVOA.Droid.Resource.Styleable.NavigationView_elevation;
+			global::XamEffects.Droid.Resource.Styleable.NavigationView_headerLayout = global::TVOA.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::XamEffects.Droid.Resource.Styleable.NavigationView_itemBackground = global::TVOA.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::XamEffects.Droid.Resource.Styleable.NavigationView_itemIconTint = global::TVOA.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::XamEffects.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::TVOA.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::XamEffects.Droid.Resource.Styleable.NavigationView_itemTextColor = global::TVOA.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::XamEffects.Droid.Resource.Styleable.NavigationView_menu = global::TVOA.Droid.Resource.Styleable.NavigationView_menu;
+			global::XamEffects.Droid.Resource.Styleable.PopupWindow = global::TVOA.Droid.Resource.Styleable.PopupWindow;
+			global::XamEffects.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::TVOA.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::XamEffects.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::TVOA.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::XamEffects.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::TVOA.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::XamEffects.Droid.Resource.Styleable.PopupWindowBackgroundState = global::TVOA.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::XamEffects.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::TVOA.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::XamEffects.Droid.Resource.Styleable.RecycleListView = global::TVOA.Droid.Resource.Styleable.RecycleListView;
+			global::XamEffects.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::TVOA.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::XamEffects.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::TVOA.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::XamEffects.Droid.Resource.Styleable.RecyclerView = global::TVOA.Droid.Resource.Styleable.RecyclerView;
+			global::XamEffects.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::TVOA.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::XamEffects.Droid.Resource.Styleable.RecyclerView_android_orientation = global::TVOA.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::XamEffects.Droid.Resource.Styleable.RecyclerView_layoutManager = global::TVOA.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::XamEffects.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::TVOA.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::XamEffects.Droid.Resource.Styleable.RecyclerView_spanCount = global::TVOA.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::XamEffects.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::TVOA.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::XamEffects.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::TVOA.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::XamEffects.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::TVOA.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::XamEffects.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::TVOA.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::XamEffects.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::TVOA.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::XamEffects.Droid.Resource.Styleable.SearchView = global::TVOA.Droid.Resource.Styleable.SearchView;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_android_focusable = global::TVOA.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_android_imeOptions = global::TVOA.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_android_inputType = global::TVOA.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_android_maxWidth = global::TVOA.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_closeIcon = global::TVOA.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_commitIcon = global::TVOA.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::TVOA.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_goIcon = global::TVOA.Droid.Resource.Styleable.SearchView_goIcon;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::TVOA.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_layout = global::TVOA.Droid.Resource.Styleable.SearchView_layout;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_queryBackground = global::TVOA.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_queryHint = global::TVOA.Droid.Resource.Styleable.SearchView_queryHint;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_searchHintIcon = global::TVOA.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_searchIcon = global::TVOA.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_submitBackground = global::TVOA.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::TVOA.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::XamEffects.Droid.Resource.Styleable.SearchView_voiceIcon = global::TVOA.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::XamEffects.Droid.Resource.Styleable.SnackbarLayout = global::TVOA.Droid.Resource.Styleable.SnackbarLayout;
+			global::XamEffects.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::TVOA.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::XamEffects.Droid.Resource.Styleable.SnackbarLayout_elevation = global::TVOA.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::XamEffects.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::TVOA.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::XamEffects.Droid.Resource.Styleable.Spinner = global::TVOA.Droid.Resource.Styleable.Spinner;
+			global::XamEffects.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::TVOA.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::XamEffects.Droid.Resource.Styleable.Spinner_android_entries = global::TVOA.Droid.Resource.Styleable.Spinner_android_entries;
+			global::XamEffects.Droid.Resource.Styleable.Spinner_android_popupBackground = global::TVOA.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::XamEffects.Droid.Resource.Styleable.Spinner_android_prompt = global::TVOA.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::XamEffects.Droid.Resource.Styleable.Spinner_popupTheme = global::TVOA.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat = global::TVOA.Droid.Resource.Styleable.SwitchCompat;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::TVOA.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::TVOA.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::TVOA.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_showText = global::TVOA.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::TVOA.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::TVOA.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::TVOA.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::TVOA.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::TVOA.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::TVOA.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::TVOA.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_track = global::TVOA.Droid.Resource.Styleable.SwitchCompat_track;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_trackTint = global::TVOA.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::XamEffects.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::TVOA.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::XamEffects.Droid.Resource.Styleable.TabItem = global::TVOA.Droid.Resource.Styleable.TabItem;
+			global::XamEffects.Droid.Resource.Styleable.TabItem_android_icon = global::TVOA.Droid.Resource.Styleable.TabItem_android_icon;
+			global::XamEffects.Droid.Resource.Styleable.TabItem_android_layout = global::TVOA.Droid.Resource.Styleable.TabItem_android_layout;
+			global::XamEffects.Droid.Resource.Styleable.TabItem_android_text = global::TVOA.Droid.Resource.Styleable.TabItem_android_text;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout = global::TVOA.Droid.Resource.Styleable.TabLayout;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabBackground = global::TVOA.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabContentStart = global::TVOA.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabGravity = global::TVOA.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::TVOA.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::TVOA.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::TVOA.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::TVOA.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabMode = global::TVOA.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabPadding = global::TVOA.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::TVOA.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::TVOA.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::TVOA.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::TVOA.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::TVOA.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::TVOA.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::XamEffects.Droid.Resource.Styleable.TabLayout_tabTextColor = global::TVOA.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::XamEffects.Droid.Resource.Styleable.TextAppearance = global::TVOA.Droid.Resource.Styleable.TextAppearance;
+			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::TVOA.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::TVOA.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::TVOA.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::TVOA.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_textColor = global::TVOA.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::TVOA.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_textSize = global::TVOA.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::TVOA.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::XamEffects.Droid.Resource.Styleable.TextAppearance_android_typeface = global::TVOA.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::XamEffects.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::TVOA.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout = global::TVOA.Droid.Resource.Styleable.TextInputLayout;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_android_hint = global::TVOA.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::TVOA.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::TVOA.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::TVOA.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::TVOA.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::TVOA.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::TVOA.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::TVOA.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::TVOA.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::TVOA.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::TVOA.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::TVOA.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::TVOA.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::TVOA.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::TVOA.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::XamEffects.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::TVOA.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar = global::TVOA.Droid.Resource.Styleable.Toolbar;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_android_gravity = global::TVOA.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_android_minHeight = global::TVOA.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_buttonGravity = global::TVOA.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::TVOA.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_collapseIcon = global::TVOA.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::TVOA.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::TVOA.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::TVOA.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::TVOA.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::TVOA.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::TVOA.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_logo = global::TVOA.Droid.Resource.Styleable.Toolbar_logo;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_logoDescription = global::TVOA.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::TVOA.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::TVOA.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_navigationIcon = global::TVOA.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_popupTheme = global::TVOA.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_subtitle = global::TVOA.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::TVOA.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::TVOA.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_title = global::TVOA.Droid.Resource.Styleable.Toolbar_title;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleMargin = global::TVOA.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::TVOA.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::TVOA.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::TVOA.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::TVOA.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleMargins = global::TVOA.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::TVOA.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::XamEffects.Droid.Resource.Styleable.Toolbar_titleTextColor = global::TVOA.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::XamEffects.Droid.Resource.Styleable.View = global::TVOA.Droid.Resource.Styleable.View;
+			global::XamEffects.Droid.Resource.Styleable.View_android_focusable = global::TVOA.Droid.Resource.Styleable.View_android_focusable;
+			global::XamEffects.Droid.Resource.Styleable.View_android_theme = global::TVOA.Droid.Resource.Styleable.View_android_theme;
+			global::XamEffects.Droid.Resource.Styleable.View_paddingEnd = global::TVOA.Droid.Resource.Styleable.View_paddingEnd;
+			global::XamEffects.Droid.Resource.Styleable.View_paddingStart = global::TVOA.Droid.Resource.Styleable.View_paddingStart;
+			global::XamEffects.Droid.Resource.Styleable.View_theme = global::TVOA.Droid.Resource.Styleable.View_theme;
+			global::XamEffects.Droid.Resource.Styleable.ViewBackgroundHelper = global::TVOA.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::XamEffects.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::TVOA.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::XamEffects.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::TVOA.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::XamEffects.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::TVOA.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::XamEffects.Droid.Resource.Styleable.ViewStubCompat = global::TVOA.Droid.Resource.Styleable.ViewStubCompat;
+			global::XamEffects.Droid.Resource.Styleable.ViewStubCompat_android_id = global::TVOA.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::XamEffects.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::TVOA.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::XamEffects.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::TVOA.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -11632,163 +13430,196 @@ namespace TVOA.Droid
 			public const int abc_vector_test = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int avd_hide_password = 2131165276;
+			public const int archive = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int avd_show_password = 2131165277;
+			public const int avd_hide_password = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int btn_checkbox_checked_mtrl = 2131165278;
+			public const int avd_show_password = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165279;
+			public const int back = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int btn_checkbox_unchecked_mtrl = 2131165280;
+			public const int btn_checkbox_checked_mtrl = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165281;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int btn_radio_off_mtrl = 2131165282;
+			public const int btn_checkbox_unchecked_mtrl = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165283;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int btn_radio_on_mtrl = 2131165284;
+			public const int btn_radio_off_mtrl = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165285;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int design_bottom_navigation_item_background = 2131165286;
+			public const int btn_radio_on_mtrl = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int design_fab_background = 2131165287;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int design_ic_visibility = 2131165288;
+			public const int design_bottom_navigation_item_background = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int design_ic_visibility_off = 2131165289;
+			public const int design_fab_background = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int design_password_eye = 2131165290;
+			public const int design_ic_visibility = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int design_snackbar_background = 2131165291;
+			public const int design_ic_visibility_off = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_mtrl_checked_circle = 2131165292;
+			public const int design_password_eye = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_mtrl_chip_checked_black = 2131165293;
+			public const int design_snackbar_background = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int ic_mtrl_chip_checked_circle = 2131165294;
+			public const int edit = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int ic_mtrl_chip_close_circle = 2131165295;
+			public const int exit = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int logo = 2131165296;
+			public const int groupe = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int material_ic_calendar_black_24dp = 2131165297;
+			public const int home = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int material_ic_clear_black_24dp = 2131165298;
+			public const int ic_mtrl_checked_circle = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int material_ic_edit_black_24dp = 2131165299;
+			public const int ic_mtrl_chip_checked_black = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165300;
+			public const int ic_mtrl_chip_checked_circle = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165301;
+			public const int ic_mtrl_chip_close_circle = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165302;
+			public const int like = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165303;
+			public const int likeRed = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int mtrl_dialog_background = 2131165304;
+			public const int logo = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int mtrl_dropdown_arrow = 2131165305;
+			public const int material_ic_calendar_black_24dp = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int mtrl_ic_arrow_drop_down = 2131165306;
+			public const int material_ic_clear_black_24dp = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int mtrl_ic_arrow_drop_up = 2131165307;
+			public const int material_ic_edit_black_24dp = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_ic_cancel = 2131165308;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_ic_error = 2131165309;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_popupmenu_background = 2131165310;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int mtrl_popupmenu_background_dark = 2131165311;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int mtrl_tabs_default_indicator = 2131165312;
+			public const int mtrl_dialog_background = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int navigation_empty_icon = 2131165313;
+			public const int mtrl_dropdown_arrow = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int notification_action_background = 2131165314;
+			public const int mtrl_ic_arrow_drop_down = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_bg = 2131165315;
+			public const int mtrl_ic_arrow_drop_up = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_bg_low = 2131165316;
+			public const int mtrl_ic_cancel = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notification_bg_low_normal = 2131165317;
+			public const int mtrl_ic_error = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_bg_low_pressed = 2131165318;
+			public const int mtrl_popupmenu_background = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_bg_normal = 2131165319;
+			public const int mtrl_popupmenu_background_dark = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_bg_normal_pressed = 2131165320;
+			public const int mtrl_tabs_default_indicator = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_icon_background = 2131165321;
+			public const int navigation_empty_icon = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_template_icon_bg = 2131165322;
+			public const int notification_action_background = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notification_template_icon_low_bg = 2131165323;
+			public const int notification_bg = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int notification_tile_bg = 2131165324;
+			public const int notification_bg_low = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int notify_panel_notification_icon_bg = 2131165325;
+			public const int notification_bg_low_normal = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int test_custom_background = 2131165326;
+			public const int notification_bg_low_pressed = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int tooltip_frame_dark = 2131165327;
+			public const int notification_bg_normal = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int tooltip_frame_light = 2131165328;
+			public const int notification_bg_normal_pressed = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int notification_icon_background = 2131165329;
+			
+			// aapt resource value: 0x7F070092
+			public const int notification_template_icon_bg = 2131165330;
+			
+			// aapt resource value: 0x7F070093
+			public const int notification_template_icon_low_bg = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int notification_tile_bg = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int notify_panel_notification_icon_bg = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int pluse = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int search = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int test_custom_background = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int tooltip_frame_dark = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int tooltip_frame_light = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int user = 2131165339;
 			
 			static Drawable()
 			{
@@ -12734,25 +14565,28 @@ namespace TVOA.Droid
 			public const int view_offset_helper = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int view_tree_saved_state_registry_owner = 2131231030;
+			public const int view_tree_lifecycle_owner = 2131231030;
 			
 			// aapt resource value: 0x7F080137
-			public const int visible = 2131231031;
+			public const int view_tree_saved_state_registry_owner = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int visible_removing_fragment_view_tag = 2131231032;
-			
-			// aapt resource value: 0x7F08013A
-			public const int withinBounds = 2131231034;
+			public const int visible = 2131231032;
 			
 			// aapt resource value: 0x7F080139
-			public const int withText = 2131231033;
+			public const int visible_removing_fragment_view_tag = 2131231033;
 			
 			// aapt resource value: 0x7F08013B
-			public const int wrap_content = 2131231035;
+			public const int withinBounds = 2131231035;
+			
+			// aapt resource value: 0x7F08013A
+			public const int withText = 2131231034;
 			
 			// aapt resource value: 0x7F08013C
-			public const int zero_corner_chip = 2131231036;
+			public const int wrap_content = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int zero_corner_chip = 2131231037;
 			
 			static Id()
 			{
@@ -13285,275 +15119,281 @@ namespace TVOA.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7F0E0000
-			public const int abc_action_bar_home_description = 2131623936;
-			
-			// aapt resource value: 0x7F0E0001
-			public const int abc_action_bar_up_description = 2131623937;
-			
 			// aapt resource value: 0x7F0E0002
-			public const int abc_action_menu_overflow_description = 2131623938;
+			public const int abc_action_bar_home_description = 2131623938;
 			
 			// aapt resource value: 0x7F0E0003
-			public const int abc_action_mode_done = 2131623939;
-			
-			// aapt resource value: 0x7F0E0005
-			public const int abc_activitychooserview_choose_application = 2131623941;
+			public const int abc_action_bar_up_description = 2131623939;
 			
 			// aapt resource value: 0x7F0E0004
-			public const int abc_activity_chooser_view_see_all = 2131623940;
+			public const int abc_action_menu_overflow_description = 2131623940;
 			
-			// aapt resource value: 0x7F0E0006
-			public const int abc_capital_off = 2131623942;
+			// aapt resource value: 0x7F0E0005
+			public const int abc_action_mode_done = 2131623941;
 			
 			// aapt resource value: 0x7F0E0007
-			public const int abc_capital_on = 2131623943;
+			public const int abc_activitychooserview_choose_application = 2131623943;
+			
+			// aapt resource value: 0x7F0E0006
+			public const int abc_activity_chooser_view_see_all = 2131623942;
 			
 			// aapt resource value: 0x7F0E0008
-			public const int abc_menu_alt_shortcut_label = 2131623944;
+			public const int abc_capital_off = 2131623944;
 			
 			// aapt resource value: 0x7F0E0009
-			public const int abc_menu_ctrl_shortcut_label = 2131623945;
+			public const int abc_capital_on = 2131623945;
 			
 			// aapt resource value: 0x7F0E000A
-			public const int abc_menu_delete_shortcut_label = 2131623946;
+			public const int abc_menu_alt_shortcut_label = 2131623946;
 			
 			// aapt resource value: 0x7F0E000B
-			public const int abc_menu_enter_shortcut_label = 2131623947;
+			public const int abc_menu_ctrl_shortcut_label = 2131623947;
 			
 			// aapt resource value: 0x7F0E000C
-			public const int abc_menu_function_shortcut_label = 2131623948;
+			public const int abc_menu_delete_shortcut_label = 2131623948;
 			
 			// aapt resource value: 0x7F0E000D
-			public const int abc_menu_meta_shortcut_label = 2131623949;
+			public const int abc_menu_enter_shortcut_label = 2131623949;
 			
 			// aapt resource value: 0x7F0E000E
-			public const int abc_menu_shift_shortcut_label = 2131623950;
+			public const int abc_menu_function_shortcut_label = 2131623950;
 			
 			// aapt resource value: 0x7F0E000F
-			public const int abc_menu_space_shortcut_label = 2131623951;
+			public const int abc_menu_meta_shortcut_label = 2131623951;
 			
 			// aapt resource value: 0x7F0E0010
-			public const int abc_menu_sym_shortcut_label = 2131623952;
+			public const int abc_menu_shift_shortcut_label = 2131623952;
 			
 			// aapt resource value: 0x7F0E0011
-			public const int abc_prepend_shortcut_label = 2131623953;
-			
-			// aapt resource value: 0x7F0E0013
-			public const int abc_searchview_description_clear = 2131623955;
-			
-			// aapt resource value: 0x7F0E0014
-			public const int abc_searchview_description_query = 2131623956;
-			
-			// aapt resource value: 0x7F0E0015
-			public const int abc_searchview_description_search = 2131623957;
-			
-			// aapt resource value: 0x7F0E0016
-			public const int abc_searchview_description_submit = 2131623958;
-			
-			// aapt resource value: 0x7F0E0017
-			public const int abc_searchview_description_voice = 2131623959;
+			public const int abc_menu_space_shortcut_label = 2131623953;
 			
 			// aapt resource value: 0x7F0E0012
-			public const int abc_search_hint = 2131623954;
+			public const int abc_menu_sym_shortcut_label = 2131623954;
+			
+			// aapt resource value: 0x7F0E0013
+			public const int abc_prepend_shortcut_label = 2131623955;
+			
+			// aapt resource value: 0x7F0E0015
+			public const int abc_searchview_description_clear = 2131623957;
+			
+			// aapt resource value: 0x7F0E0016
+			public const int abc_searchview_description_query = 2131623958;
+			
+			// aapt resource value: 0x7F0E0017
+			public const int abc_searchview_description_search = 2131623959;
 			
 			// aapt resource value: 0x7F0E0018
-			public const int abc_shareactionprovider_share_with = 2131623960;
+			public const int abc_searchview_description_submit = 2131623960;
 			
 			// aapt resource value: 0x7F0E0019
-			public const int abc_shareactionprovider_share_with_application = 2131623961;
+			public const int abc_searchview_description_voice = 2131623961;
+			
+			// aapt resource value: 0x7F0E0014
+			public const int abc_search_hint = 2131623956;
 			
 			// aapt resource value: 0x7F0E001A
-			public const int abc_toolbar_collapse_description = 2131623962;
+			public const int abc_shareactionprovider_share_with = 2131623962;
 			
 			// aapt resource value: 0x7F0E001B
-			public const int appbar_scrolling_view_behavior = 2131623963;
+			public const int abc_shareactionprovider_share_with_application = 2131623963;
 			
 			// aapt resource value: 0x7F0E001C
-			public const int bottom_sheet_behavior = 2131623964;
+			public const int abc_toolbar_collapse_description = 2131623964;
 			
 			// aapt resource value: 0x7F0E001D
-			public const int character_counter_content_description = 2131623965;
+			public const int appbar_scrolling_view_behavior = 2131623965;
+			
+			// aapt resource value: 0x7F0E0000
+			public const int ApplicationName = 2131623936;
 			
 			// aapt resource value: 0x7F0E001E
-			public const int character_counter_overflowed_content_description = 2131623966;
+			public const int bottom_sheet_behavior = 2131623966;
 			
 			// aapt resource value: 0x7F0E001F
-			public const int character_counter_pattern = 2131623967;
+			public const int character_counter_content_description = 2131623967;
 			
 			// aapt resource value: 0x7F0E0020
-			public const int chip_text = 2131623968;
+			public const int character_counter_overflowed_content_description = 2131623968;
 			
 			// aapt resource value: 0x7F0E0021
-			public const int clear_text_end_icon_content_description = 2131623969;
+			public const int character_counter_pattern = 2131623969;
 			
 			// aapt resource value: 0x7F0E0022
-			public const int copy_toast_msg = 2131623970;
+			public const int chip_text = 2131623970;
 			
 			// aapt resource value: 0x7F0E0023
-			public const int error_icon_content_description = 2131623971;
+			public const int clear_text_end_icon_content_description = 2131623971;
 			
 			// aapt resource value: 0x7F0E0024
-			public const int exposed_dropdown_menu_content_description = 2131623972;
+			public const int copy_toast_msg = 2131623972;
 			
 			// aapt resource value: 0x7F0E0025
-			public const int fab_transformation_scrim_behavior = 2131623973;
+			public const int error_icon_content_description = 2131623973;
 			
 			// aapt resource value: 0x7F0E0026
-			public const int fab_transformation_sheet_behavior = 2131623974;
+			public const int exposed_dropdown_menu_content_description = 2131623974;
 			
 			// aapt resource value: 0x7F0E0027
-			public const int fallback_menu_item_copy_link = 2131623975;
+			public const int fab_transformation_scrim_behavior = 2131623975;
 			
 			// aapt resource value: 0x7F0E0028
-			public const int fallback_menu_item_open_in_browser = 2131623976;
+			public const int fab_transformation_sheet_behavior = 2131623976;
 			
 			// aapt resource value: 0x7F0E0029
-			public const int fallback_menu_item_share_link = 2131623977;
+			public const int fallback_menu_item_copy_link = 2131623977;
 			
 			// aapt resource value: 0x7F0E002A
-			public const int hide_bottom_view_on_scroll_behavior = 2131623978;
+			public const int fallback_menu_item_open_in_browser = 2131623978;
 			
 			// aapt resource value: 0x7F0E002B
-			public const int icon_content_description = 2131623979;
+			public const int fallback_menu_item_share_link = 2131623979;
+			
+			// aapt resource value: 0x7F0E0001
+			public const int Hello = 2131623937;
 			
 			// aapt resource value: 0x7F0E002C
-			public const int item_view_role_description = 2131623980;
+			public const int hide_bottom_view_on_scroll_behavior = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int material_slider_range_end = 2131623981;
+			public const int icon_content_description = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int material_slider_range_start = 2131623982;
+			public const int item_view_role_description = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int mtrl_badge_numberless_content_description = 2131623983;
+			public const int material_slider_range_end = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int mtrl_chip_close_icon_content_description = 2131623984;
+			public const int material_slider_range_start = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int mtrl_exceed_max_badge_number_content_description = 2131623985;
+			public const int mtrl_badge_numberless_content_description = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int mtrl_exceed_max_badge_number_suffix = 2131623986;
+			public const int mtrl_chip_close_icon_content_description = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int mtrl_picker_a11y_next_month = 2131623987;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int mtrl_picker_a11y_prev_month = 2131623988;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int mtrl_picker_announce_current_selection = 2131623989;
+			public const int mtrl_picker_a11y_next_month = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int mtrl_picker_cancel = 2131623990;
+			public const int mtrl_picker_a11y_prev_month = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int mtrl_picker_confirm = 2131623991;
+			public const int mtrl_picker_announce_current_selection = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int mtrl_picker_date_header_selected = 2131623992;
+			public const int mtrl_picker_cancel = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int mtrl_picker_date_header_title = 2131623993;
+			public const int mtrl_picker_confirm = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int mtrl_picker_date_header_unselected = 2131623994;
+			public const int mtrl_picker_date_header_selected = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int mtrl_picker_day_of_week_column_header = 2131623995;
+			public const int mtrl_picker_date_header_title = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int mtrl_picker_invalid_format = 2131623996;
+			public const int mtrl_picker_date_header_unselected = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int mtrl_picker_invalid_format_example = 2131623997;
+			public const int mtrl_picker_day_of_week_column_header = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int mtrl_picker_invalid_format_use = 2131623998;
+			public const int mtrl_picker_invalid_format = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int mtrl_picker_invalid_range = 2131623999;
+			public const int mtrl_picker_invalid_format_example = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int mtrl_picker_navigate_to_year_description = 2131624000;
+			public const int mtrl_picker_invalid_format_use = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int mtrl_picker_out_of_range = 2131624001;
+			public const int mtrl_picker_invalid_range = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int mtrl_picker_range_header_only_end_selected = 2131624002;
+			public const int mtrl_picker_navigate_to_year_description = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int mtrl_picker_range_header_only_start_selected = 2131624003;
+			public const int mtrl_picker_out_of_range = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int mtrl_picker_range_header_selected = 2131624004;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_picker_range_header_title = 2131624005;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_picker_range_header_unselected = 2131624006;
+			public const int mtrl_picker_range_header_selected = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_picker_save = 2131624007;
+			public const int mtrl_picker_range_header_title = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_picker_text_input_date_hint = 2131624008;
+			public const int mtrl_picker_range_header_unselected = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624009;
+			public const int mtrl_picker_save = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624010;
+			public const int mtrl_picker_text_input_date_hint = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_text_input_day_abbr = 2131624011;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_text_input_month_abbr = 2131624012;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_text_input_year_abbr = 2131624013;
+			public const int mtrl_picker_text_input_day_abbr = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624014;
+			public const int mtrl_picker_text_input_month_abbr = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_toggle_to_day_selection = 2131624015;
+			public const int mtrl_picker_text_input_year_abbr = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624016;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_toggle_to_year_selection = 2131624017;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int overflow_tab_title = 2131624018;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int password_toggle_content_description = 2131624019;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int path_password_eye = 2131624020;
+			public const int overflow_tab_title = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int path_password_eye_mask_strike_through = 2131624021;
+			public const int password_toggle_content_description = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int path_password_eye_mask_visible = 2131624022;
+			public const int path_password_eye = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int path_password_strike_through = 2131624023;
+			public const int path_password_eye_mask_strike_through = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int search_menu_title = 2131624024;
+			public const int path_password_eye_mask_visible = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int status_bar_notification_info_overflow = 2131624025;
+			public const int path_password_strike_through = 2131624025;
+			
+			// aapt resource value: 0x7F0E005A
+			public const int search_menu_title = 2131624026;
+			
+			// aapt resource value: 0x7F0E005B
+			public const int status_bar_notification_info_overflow = 2131624027;
 			
 			static String()
 			{

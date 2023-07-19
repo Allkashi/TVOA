@@ -1,14 +1,16 @@
-﻿using MySqlConnector;
-using System;
-using System.Data;
-using System.Security.Cryptography;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using System;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using dotMorten.Xamarin.Forms;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using System.Net.Http;
+using Newtonsoft.Json.Linq;
+using Dadata;
+using Dadata.Model;
+using System.Threading;
+
 
 namespace TVOA
 {
@@ -18,16 +20,70 @@ namespace TVOA
     {
 
 
-
         public RegPage()
         {
             InitializeComponent();
         }
 
+        private CancellationTokenSource cancellationTokenSource;
+        private async void AutoSuggestBox_TextChanged(AutoSuggestBox sender, AutoSuggestBoxTextChangedEventArgs args)
+        {
+            cancellationTokenSource?.Cancel();
+
+            cancellationTokenSource = new CancellationTokenSource();
+
+            try
+            {
+                await Task.Delay(1000, cancellationTokenSource.Token);
+                DebounceTimer_Elapsed(sender, args);
+            }
+            catch (TaskCanceledException)
+            {
+            }
+        }
+
+
+        private async void DebounceTimer_Elapsed(AutoSuggestBox sender, AutoSuggestBoxTextChangedEventArgs args)
+        {
+            var token = "71d407820382d1caa961d5833db3692984d764e4";
+            var result = new SuggestAddressRequest(sender.Text)
+            {
+                locations = new[]
+                    {
+                     new Address() { kladr_id = "8600001000000" },
+                    },
+                to_bound = new AddressBound("") { value = "house" }
+            };
+
+            var api = new SuggestClientAsync(token);
+            var response = await api.SuggestAddress(result);
+            var address = response.suggestions[0].data;
+
+            List<string> addresses = new List<string>();
+
+            foreach (var suggestion in response.suggestions)
+            {
+                addresses.Add(suggestion.value.Replace("Ханты-Мансийский Автономный округ - Югра", "ХМАО-Югра"));
+            }
+
+            if (args.Reason == AutoSuggestionBoxTextChangeReason.UserInput)
+            {
+                NewUserStreet.ItemsSource = addresses;
+            }
+        }
+
+
         private void OnRegClicked(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(NewUserLogin.Text) || string.IsNullOrEmpty(NewUserPass1.Text) || string.IsNullOrEmpty(NewUserPass2.Text)
-                || string.IsNullOrEmpty(NewUserMail.Text) || string.IsNullOrEmpty(NewUserStreet.Text) || string.IsNullOrEmpty(NewUserHouse.Text))
+            Connect req = new Connect();
+            string userLogin = NewUserLogin.Text;
+            string userPass = NewUserPass1.Text;
+            string userMail = NewUserMail.Text;
+            string[] userStreet = NewUserStreet.Text.Split(',');
+            string query;
+
+            if (string.IsNullOrEmpty(userLogin) || string.IsNullOrEmpty(userPass) || string.IsNullOrEmpty(NewUserPass2.Text)
+                || string.IsNullOrEmpty(userMail) || string.IsNullOrEmpty(userStreet[2]) || string.IsNullOrEmpty(userStreet[3]))
             {
                 DisplayAlert("Ошибка", "Заполните все поля!", "ОK");
             }
@@ -35,49 +91,21 @@ namespace TVOA
                 DisplayAlert("Ошибка", "Введенные пароли не совпадают! Проверьте корректность ввода", "ОK");
             else
             {
+                query = $"{"get_reg"}|{userLogin}|{userPass}|{userMail}|{userStreet[2]}|{userStreet[3]}";
 
-                DB db = new DB();
-                DataTable table = new DataTable();
-                MySqlDataAdapter adapter = new MySqlDataAdapter();
+                var response = req.OpenConnect(query);
 
-                MySqlCommand command = new MySqlCommand("SELECT * FROM users WHERE login = @ul", db.getConnection());
-                command.Parameters.Add("@ul", MySqlDbType.VarChar).Value = NewUserLogin.Text;
+                var parts = response.Split('|');
 
-                adapter.SelectCommand = command;
-                adapter.Fill(table);
-
-                if (table.Rows.Count > 0)
+                if (parts[0] != "OK")
                     DisplayAlert("Ошибка", "Пользователь с таким логином уже зарегистрирован!", "ОK");
                 else
-                    Registration(sender, e);
+                {
+                    DisplayAlert("Успех!", "Аккаунт был создан!", "ОK");
+                    Preferences.Set("login_key", userLogin);
+                    Navigation.PushAsync(new UserPage());
+                }
             }
-        }
-
-        private void Registration(object sender, EventArgs e)
-        {
-            DB db = new DB();
-            string salt, pass;
-
-            MySqlCommand command = new MySqlCommand("INSERT INTO users ( login, password, salt, mail, address, house) VALUES (@ul, @up, @us, @um, @ua, @uh)", db.getConnection());
-            command.Parameters.Add("@ul", MySqlDbType.VarChar).Value = NewUserLogin.Text;
-            salt = db.Salt();
-            pass = db.HashTextPassword(NewUserPass1.Text, salt);
-            command.Parameters.Add("@up", MySqlDbType.VarChar).Value = pass;
-            command.Parameters.Add("@us", MySqlDbType.VarChar).Value = salt;
-            command.Parameters.Add("@um", MySqlDbType.VarChar).Value = NewUserMail.Text;
-            command.Parameters.Add("@ua", MySqlDbType.VarChar).Value = NewUserStreet.Text;
-            command.Parameters.Add("@uh", MySqlDbType.VarChar).Value = NewUserHouse.Text;
-
-            db.openConnection();
-
-            if(command.ExecuteNonQuery() == 1)
-            {
-                DisplayAlert("Успех!", "Аккаунт был создан!", "ОK");
-                Navigation.PushAsync(new UserPage());
-            }
-            else
-                DisplayAlert("Ошибка", "Что-то пошло не так...", "ОK");
-            db.closeConnection();
         }
 
     }

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TVOA.ProfilePage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand" 
+                     HorizontalOptions="FillAndExpand" 
+                     Spacing="10"
+                     Margin="5">
+
+
+            <StackLayout Orientation="Horizontal"
+                         Spacing="10">
+                <BoxView WidthRequest="1" HorizontalOptions="FillAndExpand"/>
+                <ImageButton  x:Name="btnPHome" 
+                              Clicked="btnHome_Clicked" 
+                              HorizontalOptions="End"
+                              BackgroundColor="Transparent"
+                              Source="home.png"
+                              WidthRequest="35"
+                              HeightRequest="35"/>
+                <ImageButton  x:Name="btnPExit" 
+                              Clicked="btnExit_Clicked" 
+                              HorizontalOptions="End"
+                              VerticalOptions="Center"
+                              BackgroundColor="Transparent"
+                              Source="exit.png"
+                              WidthRequest="35"
+                              HeightRequest="50"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"
+                         Spacing="10">
+
+                <Label Text="Мой профиль"
+                   TextColor="Black" 
+                   FontSize="35" 
+                   FontAttributes ="Bold"
+                   HorizontalOptions="Start"/>
+
+                <ImageButton  x:Name="btnPEdit" 
+                              Clicked="btnEdit_Clicked" 
+                              VerticalOptions="Center"
+                              BackgroundColor="Transparent"
+                              Source="edit.png"
+                              WidthRequest="40"
+                              HeightRequest="40"/>
+            </StackLayout>
+            
+            <BoxView Color="Gray" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Start" />
+
+            <Image Source="logo.png"
+                   WidthRequest="150"
+                   HeightRequest="150"/>
+
+            <Label Text="Имя"
+                   TextColor="Black" 
+                   FontSize="20" 
+                   FontAttributes ="Bold"
+                   HorizontalOptions="Start"/>
+            <Entry x:Name="UserName"
+                   Text="Анастасия"
+                   FontSize="Small"
+                   IsEnabled="False"/>
+
+            <Label Text="Фамилия"
+                   TextColor="Black" 
+                   FontSize="20" 
+                   FontAttributes ="Bold"
+                   HorizontalOptions="Start"/>
+            <Entry x:Name="UserSurname"
+                   Text="Злобич"
+                   FontSize="Small"
+                   IsEnabled="False"/>
+
+            <Label Text="Почта"
+                   TextColor="Black" 
+                   FontSize="20" 
+                   FontAttributes ="Bold"
+                   HorizontalOptions="Start"/>
+            <Entry x:Name="UserEMail"
+                   Text="mail50025@gmail.com"
+                   FontSize="Small"
+                   IsEnabled="False"/>
+
+            <Label Text="Адрес"
+                   TextColor="Black" 
+                   FontSize="20" 
+                   FontAttributes ="Bold"
+                   HorizontalOptions="Start"/>
+            <Entry x:Name="UserAddress"
+                   Text="пр-кт Ленина 1"
+                   FontSize="Small"
+                   IsEnabled="False"/>
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand">
+                <Button x:Name="Undo"
+                        Clicked="btnUndo_Clicked" 
+                        Text="Отменить" 
+                        IsVisible="False" 
+                        HorizontalOptions="Center"
+                        BackgroundColor="White"
+                        BorderColor="Gray"
+                        BorderWidth="1"
+                        CornerRadius="30"
+                        />
+                <Button x:Name="Save"
+                        Clicked="btnSave_Clicked" 
+                        Text="Сохранить" 
+                        IsVisible="False" 
+                        HorizontalOptions="Center"
+                        BackgroundColor="White"
+                        BorderColor="Gray"
+                        BorderWidth="1"
+                        CornerRadius="30"/>
+            </StackLayout>
+            
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

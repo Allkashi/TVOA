@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TVOA.ModalJoinGPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" 
+                     HorizontalOptions="FillAndExpand" 
+                     Spacing="20"
+                     Margin="50">
+            <Label Text="Название группы:" />
+            <Entry x:Name="NameGroup" />
+            <Label Text="Пароль группы:" />
+            <Entry x:Name="PassGroup"
+                   IsPassword="False"/>
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand">
+                <Button Text="Отмена" 
+                        Clicked="OnUndoButtonClicked"
+                        BackgroundColor="Transparent"
+                        CornerRadius="30"
+                        BorderColor="Gray"
+                        BorderWidth="1"/>
+                <Button Text="Вступить" 
+                        Clicked="OnSaveButtonClicked"
+                        BackgroundColor="Transparent"
+                        CornerRadius="30"
+                        BorderColor="Gray"
+                        BorderWidth="1"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

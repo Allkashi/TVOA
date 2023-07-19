@@ -8,7 +8,7 @@
                  HorizontalOptions="CenterAndExpand"
                  Spacing="25">
 
-        <Image Source="https://i.ibb.co/RTZT85w/logo.png" 
+        <Image Source="logo.png" 
                Aspect="AspectFit"
                HeightRequest="100"/>
             

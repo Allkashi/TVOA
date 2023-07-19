@@ -1,12 +1,14 @@
 ﻿using MySqlConnector;
 using System;
+using System.Net;
+using System.Net.Sockets;
 using System.Security.Cryptography;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -18,32 +20,26 @@ namespace TVOA
         public LoginPage()
         {
             InitializeComponent();
+
         }
 
         private void OnConnectClicked(object sender, EventArgs e)
         {
+            Connect req = new Connect();
             string userLogin = UserLogin.Text;
             string userPass = UserPass.Text;
-            string hashPass, salt;
+            string query;
 
-            DB db = new DB();
+            query = $"{"get_auth"}|{userLogin}|{userPass}";
 
-            DataTable table = new DataTable();
+            var response = req.OpenConnect(query);
 
-            MySqlDataAdapter adapter = new MySqlDataAdapter();
+            var parts = response.Split('|');
 
-            MySqlCommand command = new MySqlCommand("SELECT * FROM users WHERE login = @ul", db.getConnection());
-            command.Parameters.Add("@ul", MySqlDbType.VarChar).Value = userLogin;
-
-            adapter.SelectCommand = command;
-            adapter.Fill(table);
-
-            if(table.Rows.Count > 0)
+            if (parts[0] == "OK")
             {
-                salt = table.Rows[0]["salt"].ToString();
-                hashPass = table.Rows[0]["password"].ToString();
-                if (db.HashTextPassword(userPass, salt) == hashPass)
-                    Navigation.PushAsync(new UserPage());
+                Preferences.Set("login_key", userLogin);
+                Navigation.PushAsync(new UserPage());
             }
             else
             {

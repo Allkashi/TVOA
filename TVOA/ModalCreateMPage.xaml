@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TVOA.ModalCreateMPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="CenterAndExpand" 
+                     HorizontalOptions="FillAndExpand" 
+                     Spacing="20"
+                     Margin="50">
+            
+            <Label Text="Создать собрание"
+                   TextColor="Black" 
+                   FontAttributes="Bold"
+                   FontSize="25" 
+                   HorizontalOptions="Start" />
+
+            <Label Text="Название собрания"
+                   TextColor="Black" 
+                   FontSize="20" 
+                   HorizontalOptions="Start" />
+            <Entry x:Name="NewMeetName"
+                   FontSize="Small"/>
+
+            <Label Text="Группа"
+                   TextColor="Black" 
+                   FontSize="20" 
+                   HorizontalOptions="Start" />
+            <Picker x:Name="PickerGroupe" />
+
+            <Label Text="Краткое описание"
+                   TextColor="Black" 
+                   FontSize="Large" 
+                   HorizontalOptions="Start" />
+            <Entry x:Name="NewMeetSummary"
+                   FontSize="Small"/>
+
+            <Label Text="Дата и время проведения"
+                   TextColor="Black" 
+                   FontSize="Large" 
+                   HorizontalOptions="Start" />
+            <StackLayout Orientation="Horizontal">
+                <DatePicker x:Name="DatePicker" />
+                <TimePicker x:Name="TimePicker" />
+            </StackLayout>
+
+            <Label Text="Статус"
+                   TextColor="Black" 
+                   FontSize="Large" 
+                   HorizontalOptions="Start" />
+
+            <Picker x:Name="PickerType">
+                <Picker.Items>
+                    <x:String>Запланированное</x:String>
+                    <x:String>На одобрении</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="Содержание"
+                   TextColor="Black" 
+                   FontSize="Large" 
+                   HorizontalOptions="Start" />
+            <Editor x:Name="TextMeet" HorizontalOptions="FillAndExpand" HeightRequest="200" />
+
+            <Label Text="Прикрепить опрос"
+                   TextColor="Black" 
+                   FontSize="Large" 
+                   HorizontalOptions="Start" />
+
+            <StackLayout>
+                <Label Text="Название опроса:" />
+                <Entry x:Name="surveyNameEntry" />
+                <Label Text="Варианты ответа:" />
+                <Entry x:Name="answer1Entry" 
+                       Placeholder="Вариант 1"/>
+                <Entry x:Name="answer2Entry" 
+                       Placeholder="Вариант 2"/>
+                <Button Text="Добавить вариант ответа" Clicked="OnAddAnswerClicked" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand"
+                         Margin="60">
+                <Button x:Name="Undo"
+                        Clicked="btnUndo_Clicked" 
+                        Text="Отменить" 
+                        HorizontalOptions="Center"
+                        BackgroundColor="White"
+                        BorderColor="Gray"
+                        BorderWidth="1"
+                        CornerRadius="30"
+                        />
+                <Button x:Name="Save"
+                        Clicked="btnSave_Clicked" 
+                        Text="Создать" 
+                        HorizontalOptions="Center"
+                        BackgroundColor="White"
+                        BorderColor="Gray"
+                        BorderWidth="1"
+                        CornerRadius="30"/>
+            </StackLayout>
+
+
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

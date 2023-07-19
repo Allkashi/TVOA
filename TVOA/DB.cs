@@ -8,59 +8,52 @@ using System.Text;
 
 namespace TVOA
 {
-    class DB
+    [Serializable]
+    public class Groupe
     {
-        MySqlConnection connection = new MySqlConnection("server=192.168.1.18;port=3306;username=username;password=password;database=tvoa;sslmode=0;AllowPublicKeyRetrieval=true");
+        public uint Id { get; set; }
 
-        public void openConnection() //Подключение к бд
-        {
-            if (connection.State == System.Data.ConnectionState.Closed)
-                connection.Open();
-        }
+        public string Name { get; set; }
 
-        public void closeConnection() //Отключение от бд
-        {
-            if (connection.State == System.Data.ConnectionState.Open)
-                connection.Close();
-        }
+        public string AddressId { get; set; }
 
-        public MySqlConnection getConnection() // Возврат соединения с бд
-        {
-            return connection;
-        }
-
-        public string Salt()
-        {
-            const int NUMBER_OF_BYTES = 50;
-            byte[] randomBytes = new byte[NUMBER_OF_BYTES];
-            char[] chars = new char[NUMBER_OF_BYTES * 2];
-
-            using (RandomNumberGenerator rng = RandomNumberGenerator.Create())
-            {
-                rng.GetBytes(randomBytes);
-                for (int i = 0; i < NUMBER_OF_BYTES; i++)
-                {
-                    byte b = randomBytes[i];
-                    chars[i * 2] = (char)(97 + (b % 26)); // lowercase letter
-                    chars[i * 2 + 1] = (char)(48 + (b % 10)); // digit
-                }
-            }
-
-            string randomNumber = new string(chars);
-            return randomNumber;
-        }
-
-        public string HashTextPassword(string TextPassword, string salt)
-        {
-            byte[] tmpSource;
-            byte[] tmpHash;
-
-            tmpSource = ASCIIEncoding.ASCII.GetBytes(TextPassword);
-            tmpHash = new MD5CryptoServiceProvider().ComputeHash(tmpSource);
-
-            string pass = Encoding.UTF8.GetString(tmpHash);
-            return pass;
-        }
+        public string HouseId { get; set; }
 
     }
+
+    [Serializable]
+    public class User
+    {
+        public uint Id { get; set; }
+
+        public string Name { get; set; }
+
+        public bool Status { get; set; }
+
+        public User()
+        {
+            Status = false;
+        }
+    }
+
+    [Serializable]
+    public class Meet
+    {
+        public uint Id { get; set; }
+
+        public uint IdGroupe { get; set; }
+
+        public string NameMeet { get; set; }
+
+        public string Address { get; set; }
+        public string Text { get; set; }
+
+        public string DateStart { get; set; }
+
+        public string Status { get; set; }
+
+        public string Summary { get; set; }
+
+        public int Counter { get; set; }
+    } 
 }

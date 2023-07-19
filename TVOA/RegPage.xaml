@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:forms="clr-namespace:dotMorten.Xamarin.Forms;assembly=dotMorten.Xamarin.Forms.AutoSuggestBox"
              x:Class="TVOA.RegPage">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" 
@@ -27,13 +27,15 @@
                    x:Name="NewUserMail"
                    FontSize="Small" />
 
-            <StackLayout Orientation="Horizontal">
-                <Entry Placeholder="Название улицы" 
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="CenterAndExpand">
+
+                <forms:AutoSuggestBox
+                   WidthRequest="500"
+                   PlaceholderText="Название улицы" 
                    x:Name="NewUserStreet"
-                   FontSize="Small" />
-                <Entry Placeholder="Номер дома" 
-                   x:Name="NewUserHouse"
-                   FontSize="Small" />
+                   TextChanged="AutoSuggestBox_TextChanged"
+                   />
             </StackLayout>
 
             <Button Text="Зарегистрироваться" 

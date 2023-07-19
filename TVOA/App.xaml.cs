@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace TVOA
 {
@@ -9,11 +10,19 @@ namespace TVOA
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new MainPage());
+
+            var status = Preferences.Get("login_key", "");
+
+            if (string.IsNullOrEmpty(status))
+                MainPage = new NavigationPage(new MainPage());
+            else
+                MainPage = new NavigationPage(new UserPage());
+            //            MainPage = new MenuPage();
         }
 
         protected override void OnStart()
         {
+
         }
 
         protected override void OnSleep()

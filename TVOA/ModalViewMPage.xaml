@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TVOA.ModalViewMPage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <StackLayout Orientation="Horizontal"
+                         Spacing="10"
+                         Margin="10, 0, 10, 0">
+
+                <Label Text="{Binding NameMeet}"
+                       VerticalOptions="CenterAndExpand"
+                       x:Name="NameMeet"
+                       TextColor="Black" 
+                       FontSize="35" 
+                       FontAttributes ="Bold"
+                       HorizontalOptions="Start"/>
+
+                <ImageButton  x:Name="btnMLike" 
+                              IsVisible="False"
+                              HorizontalOptions="StartAndExpand"
+                              Clicked="Like" 
+                              BackgroundColor="Transparent"
+                              Source="like.png"
+                              WidthRequest="30"
+                              HeightRequest="30"/>
+                
+                <ImageButton  x:Name="btnMBack" 
+                              HorizontalOptions="StartAndExpand"
+                              Clicked="Back" 
+                              BackgroundColor="Transparent"
+                              Source="back.png"
+                              WidthRequest="30"
+                              HeightRequest="30"/>
+
+                <Label  x:Name="AcceptMeet" 
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="EndAndExpand"
+                        Text="Принять"
+                        FontSize="20"
+                        TextColor="Green"
+                        BackgroundColor="Transparent"
+                        IsVisible="False">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="AccMeet"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <Label  x:Name="DenyMeet"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="End"
+                        Text="Отклонить"
+                        FontSize="20"
+                        TextColor="Red"
+                        BackgroundColor="Transparent"
+                        IsVisible="False">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="DenMeet"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+            </StackLayout>
+
+            <BoxView Color="Gray" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Start" />
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Start"
+                         Padding="10"
+                         Margin="10, 0, 10, 0">
+
+                <Label Text="{Binding DateStart}"
+                   x:Name="DateStart"
+                   TextColor="Gray" 
+                   FontSize="20" 
+                   FontAttributes ="Bold"
+                   HorizontalOptions="Start"/>
+                <Label Text="—"
+                       TextColor="Gray" 
+                       FontSize="20" 
+                       FontAttributes ="Bold"/>
+                <Label Text="{Binding Address}"
+                   x:Name="Address"
+                   TextColor="Gray" 
+                   FontSize="20" 
+                   FontAttributes ="Bold"
+                   HorizontalOptions="Start"/>
+                
+            </StackLayout>
+
+            <Label Text="{Binding Text}"
+                   TextColor="Black" 
+                   FontSize="20" 
+                   Padding="10"
+                   Margin="10, 0, 10, 0"/>
+
+            <StackLayout IsVisible="false"
+                         x:Name="Vote"
+                         Spacing="10"
+                         Margin="10, 0, 10, 0">
+                <Label Text="Тестовый вопрос"
+                       FontSize="20" 
+                       FontAttributes ="Bold"/>
+                <RadioButton x:Name="OneButton" Content="Один - 0"/>
+                <RadioButton x:Name="TwoButton" Content="Два - 0"/>
+                <RadioButton x:Name="ThreeButton" Content="Три - 0"/>
+                <RadioButton x:Name="FourButton" Content="Четыре - 0" />
+                <Button x:Name="VoteButton" Text="Проголосовать" Clicked="VoteButton_Click" />
+            </StackLayout>
+            
+        </StackLayout>
+        
+        
+    </ContentPage.Content>
+</ContentPage>

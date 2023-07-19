@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TVOA.MeetCreatePage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand" 
+                     HorizontalOptions="FillAndExpand" 
+                     Spacing="10"
+                     Margin="10">
+            
+            <Label Text="Управление собраниями"
+                   TextColor="Black" 
+                   FontSize="35" 
+                   FontAttributes ="Bold"
+                   HorizontalOptions="Start"/>
+            
+            <BoxView Color="Gray" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Start" />
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="FillAndExpand">
+
+                <Picker x:Name="Address"
+                        Title="  Адрес  "
+                        HorizontalOptions="FillAndExpand">
+                    <Picker.Items>
+                        <x:String>пр-кт Ленина 1</x:String>
+                    </Picker.Items>
+                </Picker>
+
+
+                <Label Text="Очистить" TextColor="Red" 
+                       FontSize="20"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="CenterAndExpand">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                         Tapped="OnClearClicked" />
+                    </Label.GestureRecognizers>
+                </Label>
+
+
+                <BoxView/>
+                <Label Text="Добавить" TextColor="Gray" 
+                       FontSize="20"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="CenterAndExpand">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer 
+                         Tapped="AddMeet"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical"
+                         VerticalOptions="FillAndExpand"
+                         Spacing="10"
+                         Margin="10">
+                
+                <Label Text="Предложения на публикацию"
+                   FontAttributes ="Bold"
+                   TextColor="Black" 
+                   FontSize="Title" 
+                   HorizontalOptions="Start"/>
+
+
+                <ListView x:Name="PublishListView" RowHeight="90" VerticalOptions="FillAndExpand" Margin="10">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell Tapped="GoToMeet">
+                                <StackLayout Orientation="Vertical"
+                                             VerticalOptions="StartAndExpand">
+                                    <Label Text="{Binding NameMeet}"
+                                           TextColor="Black"
+                                           FontSize="20"
+                                           FontAttributes="Bold"/>
+                                    <StackLayout Orientation="Horizontal"
+                                                 VerticalOptions="StartAndExpand">
+                                        <Label Text="{Binding DateStart}"/>
+                                        <Label Text= " — "/>
+                                        <Label Text="{Binding Address}"/>
+
+                                        <Label Text="{Binding Counter, StringFormat='+{0}'}"
+                                               FontAttributes="Bold"
+                                               HorizontalOptions="EndAndExpand"/>
+
+
+                                    </StackLayout>
+                                 <Label Text="{Binding Summary}"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+            
+                <Label Text="Неутвержденные собрания"
+                       FontAttributes ="Bold"
+                       TextColor="Black" 
+                       FontSize="Title" 
+                       HorizontalOptions="Start"/>
+
+                <ListView x:Name="VoteListView" RowHeight="90" VerticalOptions="FillAndExpand" >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell Tapped="GoToMeet">
+                                <StackLayout Orientation="Vertical"
+                                             VerticalOptions="StartAndExpand">
+                                    <Label Text="{Binding NameMeet}"
+                                           TextColor="Black"
+                                           FontSize="20"
+                                           FontAttributes="Bold"/>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="{Binding DateStart}"/>
+                                        <Label Text= " — "/>
+                                        <Label Text="{Binding Address}"/>
+
+                                        <Label Text="{Binding Counter, StringFormat='+{0}'}"
+                                               FontAttributes="Bold"
+                                               HorizontalOptions="EndAndExpand"/>
+                                        
+                                    </StackLayout>
+                                    <Label Text="{Binding Summary}"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

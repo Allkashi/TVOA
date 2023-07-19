@@ -3,8 +3,11 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "TVOA.Android.dll" comes first in this list. */
 		"TVOA.Android.dll",
+		"Dadata.dll",
+		"dotMorten.Xamarin.Forms.AutoSuggestBox.dll",
 		"FormsViewGroup.dll",
 		"MySqlConnector.dll",
+		"Newtonsoft.Json.dll",
 		"TVOA.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
@@ -56,6 +59,8 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Xaml.dll",
 		"Xamarin.Google.Android.Material.dll",
 		"Xamarin.Google.Guava.ListenableFuture.dll",
+		"XamEffects.dll",
+		"XamEffects.Droid.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

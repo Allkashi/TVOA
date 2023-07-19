@@ -3,54 +3,181 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TVOA.UserPage">
     <ContentPage.Content>
+
         <StackLayout VerticalOptions="StartAndExpand" 
                      HorizontalOptions="FillAndExpand" 
                      Spacing="10"
                      Margin="10">
             
-            <Label Text="Мои собрания"
+            <StackLayout Orientation="Horizontal">
+ 
+                <Entry x:Name="SearchMeet" Placeholder="Поиск"
+                       HorizontalOptions="FillAndExpand"/>
+
+                <ImageButton x:Name="btnSearch"
+                             HorizontalOptions="End"
+                             BackgroundColor="Transparent"
+                             Source="search.png"
+                             WidthRequest="50"
+                             HeightRequest="50"/>
+
+                <ImageButton  x:Name="btnProfile" 
+                              Clicked="btnProfile_Clicked" 
+                              HorizontalOptions="End"
+                              BackgroundColor="Transparent"
+                              Source="user.png"
+                              WidthRequest="50"
+                              HeightRequest="50"/>
+
+                <ImageButton  x:Name="btnGroupe" 
+                              Clicked="btnGroupe_Clicked" 
+                              HorizontalOptions="End"
+                              BackgroundColor="Transparent"
+                              Source="groupe.png"
+                              WidthRequest="50"
+                              HeightRequest="50"/>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+
+
+                <Label Text="Мои собрания"
                    TextColor="Black" 
                    FontSize="35" 
                    FontAttributes ="Bold"
                    HorizontalOptions="Start"/>
-            
+
+                <ImageButton  x:Name="btnMeet" 
+                              Clicked="btnToMeet" 
+                              VerticalOptions="CenterAndExpand"
+                              BackgroundColor="Transparent"
+                              Source="pluse.png"
+                              WidthRequest="30"
+                              HeightRequest="30"/>
+
+            </StackLayout>
+
             <BoxView Color="Gray" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Start" />
 
             <StackLayout Orientation="Horizontal"
-                         VerticalOptions="Center">
+                         VerticalOptions="FillAndExpand">
 
-                <Picker x:Name="Period"
-                        Title="Период" 
-                        VerticalOptions="CenterAndExpand">
+                <Picker x:Name="Date"
+                        Title="Временной период"
+                        HorizontalOptions="FillAndExpand">
+                    <Picker.Items>
+                        <x:String>За последнюю неделю</x:String>
+                        <x:String>За последний месяц</x:String>
+                        <x:String>Выбрать период</x:String>
+                    </Picker.Items>
                 </Picker>
 
                 <Picker x:Name="Address"
-                        Title="Адрес">
+                        Title="  Адрес  "
+                        HorizontalOptions="FillAndExpand">
+                    <Picker.Items>
+                        <x:String>пр-кт Ленина 1</x:String>
+                    </Picker.Items>
                 </Picker>
-
-                <Picker x:Name="TypeMeet"
-                        Title="Вид собрания" VerticalOptions="CenterAndExpand">
-                </Picker>
-
+                
                 <!-- Кликабельный текст "очистить" -->
                 <Label Text="Очистить" TextColor="Red" 
+                       FontSize="17"
+                       HorizontalOptions="CenterAndExpand"
                        VerticalOptions="CenterAndExpand">
                     <Label.GestureRecognizers>
                         <TapGestureRecognizer 
                          Tapped="OnClearClicked" />
                     </Label.GestureRecognizers>
                 </Label>
+                
             </StackLayout>
 
-            <Label Text="Запланированные собрания"
+
+            <StackLayout Orientation="Vertical"
+                     VerticalOptions="FillAndExpand" 
+                     Spacing="10"
+                     Margin="10">
+
+                <Label Text="Запланированные собрания"
+                   FontAttributes ="Bold"
                    TextColor="Black" 
                    FontSize="Title" 
                    HorizontalOptions="Start"/>
-            
-            <Label Text="Прошедшие собрания"
+
+
+            <ListView x:Name="PlannedListView" RowHeight="90" VerticalOptions="FillAndExpand" Margin="10">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell Tapped="GoToMeet">
+                            <StackLayout Orientation="Vertical"
+                                             VerticalOptions="StartAndExpand">
+                                <Label Text="{Binding NameMeet}"
+                                           TextColor="Black"
+                                           FontSize="20"
+                                           FontAttributes="Bold"/>
+                                <StackLayout Orientation="Horizontal"
+                                                 VerticalOptions="StartAndExpand">
+                                    <Label Text="{Binding DateStart}"/>
+                                    <Label Text= " — "/>
+                                    <Label Text="{Binding Address}"/>
+
+                                </StackLayout>
+                                <Label Text="{Binding Summary}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="StartAndExpand">
+                
+                <Label Text="Прошедшие собрания"
+                   FontAttributes ="Bold"
                    TextColor="Black" 
                    FontSize="Title" 
                    HorizontalOptions="Start"/>
+
+                <ImageButton  x:Name="btnArchive" 
+                              Clicked="btnToArchive" 
+                              VerticalOptions="CenterAndExpand"
+                              BackgroundColor="Transparent"
+                              Source="archive.png"
+                              WidthRequest="30"
+                              HeightRequest="30"/>
+
+            </StackLayout>
+
+
+            <ListView x:Name="PastListView" RowHeight="90" VerticalOptions="FillAndExpand" Margin="10">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell Tapped="GoToMeet">
+                            <StackLayout Orientation="Vertical"
+                                             VerticalOptions="StartAndExpand">
+                                <Label Text="{Binding NameMeet}"
+                                           TextColor="Black"
+                                           FontSize="20"
+                                           FontAttributes="Bold"/>
+                                <StackLayout Orientation="Horizontal"
+                                                 VerticalOptions="StartAndExpand">
+                                    <Label Text="{Binding DateStart}"/>
+                                    <Label Text= " — "/>
+                                    <Label Text="{Binding Address}"/>
+
+                                </StackLayout>
+                                <Label Text="{Binding Summary}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            </StackLayout>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
+    
+    
